@@ -8,7 +8,54 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+.ferrum { font-family: ferrum, serif; }
+.logo-align {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.constellation-align {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.text-align {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.stripe-align {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.turtle-align {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.constellation-align {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-52.75%, 0%) scale(.95);
+}
+.text-align {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.stripe-align {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 130%);
+}
 
 /**
  * Basic styling

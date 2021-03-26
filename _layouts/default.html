@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
+  
   {%- include head.html -%}
 
   <body>
+    <div class="tc">
+      {%- include header.html -%}
 
-    {%- include header.html -%}
-
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+          <a class="page-link f3 ferrum" href="{{ my_page.url | relative_url }}">&bull; {{ my_page.title | escape }} &bull;</a><br>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
