@@ -42,7 +42,7 @@ dl, dd, ol, ul, figure {
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-52.75%, 0%) scale(.95);
+    transform: translate(-50%, 0%) scale(.95);
 }
 .text-align {
     position: absolute;
@@ -57,12 +57,30 @@ dl, dd, ol, ul, figure {
     transform: translate(-50%, 130%);
 }
 
+.bottom-wash {
+    background: radial-gradient(ellipse at bottom, rgba(228, 70, 0, .3), transparent 55%);
+}
+
+.top-wash {
+    background: radial-gradient(ellipse at top, rgba(2, 186, 255, .2), transparent 55%);
+}
+
+.splash {
+    background: radial-gradient(circle at top, $background-color, transparent 55%), linear-gradient($background-color, transparent 30%), linear-gradient(transparent 30%, $background-color), url("/assets/images/site/splash.jpg") no-repeat right top;
+    background-size:cover;
+}
+
+.logo {
+    background: url("/assets/images/site/text.png") no-repeat center center, url("/assets/images/site/stripe.png") no-repeat center center, url("/assets/images/site/constellation.png") no-repeat center center, url("/assets/images/site/turtle_wide.png") no-repeat center center, radial-gradient(ellipse at top, rgba(2, 186, 255, .2), transparent 55%);
+    background-size:contain;
+}
+
 /**
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
+  // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  // color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
