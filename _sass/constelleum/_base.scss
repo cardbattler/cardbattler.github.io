@@ -79,6 +79,11 @@ dl, dd, ol, ul, figure {
     background-size:contain;
 }
 
+.sparkle {
+    background: url("/assets/images/site/constellation.png") no-repeat right top;
+    background-size:contain;
+}
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

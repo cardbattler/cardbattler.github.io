@@ -1,27 +1,38 @@
----
-layout: default
----
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
+  
+  {%- include head.html -%}
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  <body>
+    <header class="w-100" role="banner">
+      <div class="cf h4 mw7 top-wash center">
+        <div class="fl w-100 h3">
+          <a class="w-100 h-100 dib" href="/">
+            <img src="/assets/images/site/text.png" class="mw-100 h-100" alt="Constelleum">
+          </a>
+        </div>
+        <div class="fl w-100 ph4">
+          <a class="w-100 dib lh-title f3 avenir" href="/devlog">
+            &larr;devlog
+          </a>
+        </div>
+      </div>
+      
+    </header>
+    
+    <main class="cf page-content relative white mw7 center avenir pa4 sparkle" aria-label="Content">
+      <h1 class="page-heading f1">{{ page.title }}</h1>
+      
+      {{ content }}
+      
+    </main>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+    {%- include footer.html -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+  </body>
+
+</html>
+
