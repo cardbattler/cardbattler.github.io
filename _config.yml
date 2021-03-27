@@ -26,6 +26,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://constelleum.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: constelleum
 github_username:  constelleum
+show_excerpts: true
+excerpt_separator: <!--end_excerpt-->
 
 # Build settings
 plugins:
