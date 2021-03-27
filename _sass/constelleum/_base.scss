@@ -65,6 +65,10 @@ dl, dd, ol, ul, figure {
     background: radial-gradient(ellipse at top, rgba(2, 186, 255, .2), transparent 55%);
 }
 
+.content-wash{
+    background: radial-gradient(ellipse at top right, rgba(250, 222, 255, .2), transparent 40%), radial-gradient(circle at left, rgba(42, 35, 120, .3), transparent 40%);
+}
+
 .splash {
     background: radial-gradient(circle at top, $background-color, transparent 55%), linear-gradient($background-color, transparent 30%), linear-gradient(transparent 30%, $background-color), url("/assets/images/site/splash.jpg") no-repeat right top;
     background-size:cover;
@@ -73,6 +77,25 @@ dl, dd, ol, ul, figure {
 .logo {
     background: url("/assets/images/site/text.png") no-repeat center center, url("/assets/images/site/stripe.png") no-repeat center center, url("/assets/images/site/constellation.png") no-repeat center center, url("/assets/images/site/turtle_wide.png") no-repeat center center, radial-gradient(ellipse at top, rgba(2, 186, 255, .2), transparent 55%);
     background-size:contain;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+        opacity:0;  /* make things invisible upon start */
+        -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+
+        -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        animation-duration:1s;
 }
 
 /**

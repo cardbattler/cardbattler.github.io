@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post w-100">
+  <div class="mw6 bg-black white mv6 mv0-ns pa2 br4 center tc avenir content-wash">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
+    <div class="post-content">
+      {{ content }}
+    </div>
   </div>
-
 </article>

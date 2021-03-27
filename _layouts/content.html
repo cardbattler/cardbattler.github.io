@@ -8,7 +8,7 @@
 
   <body>
     {%- include header.html -%}
-    <main class="page-content splash fade-in relative" aria-label="Content">
+    <main class="page-content fade-in relative" aria-label="Content">
       <div class="tc mw5 center relative-l relative-m absolute top--2 right-0 left-0">
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
