@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Gnamma"
+date:   2021-03-26
+categories: characters
+---
+<div class="cf w-100">
+<div class="fl w-100 w-50-ns pa4" markdown="1">
+
+**Gnamma** has two boars. Two! Can you believe it? I certainly can't. What is she doing with those boars? I don't know if I trust her. Too many earth tones.
+
+</div>
+<div class="fl w-100 w-50-ns pa4" markdown="1">
+
+![gnamma](/assets/images/user/characters/gnamma.png)
+
+</div>
+</div>
