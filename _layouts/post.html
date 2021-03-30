@@ -15,9 +15,15 @@
           </a>
         </div>
         <div class="fl w-100 ph4">
-          <a class="w-100 dib lh-title f3 avenir" href="/devlog">
-            &larr;devlog
-          </a>
+          {%- unless page.categories contains "characters" %}
+            <a class="w-100 dib lh-title f3 avenir" href="/devlog">
+              &larr;devlog
+            </a>
+          {% else %}
+            <a class="w-100 dib lh-title f3 avenir" href="/characters">
+              &larr;characters
+            </a>
+          {%- endunless %}
         </div>
       </div>
       
