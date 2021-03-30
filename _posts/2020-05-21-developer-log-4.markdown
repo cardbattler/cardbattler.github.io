@@ -2,7 +2,7 @@
 layout: post
 title:  "Developer Log 4"
 date:   2020-05-21
-categories: jekyll update
+categories: devlog
 ---
 
 **Bugs and Bugs and Bugs, Oh My!** - Alex
@@ -12,6 +12,8 @@ Our first playtest in mid-April revealed nasty bugs already present in our still
 Matt posted last week on how he implemented a Starting Position Phase to fix the initial violation of personal space.
 
 ![](https://cdn.discordapp.com/attachments/575192288951533571/711812751218966569/fancy_meeting.png)
+
+<!--end_excerpt-->
 
 This week, Mitch and I went after crashes, odd interactions, and other bugs that surfaced since the playtest. We did not (and probably still don’t) fully understand childing and how nodes could be modified before entering the scene tree. If one player was viewing their hand at the end of another player’s turn, the server updated the hand viewer’s unchilded battlefield view, which crashed their game. To remedy this, the battlefield is now persistent and the handview is overlaid. The general user interface (UI) still needs tidying. Time and resources permitting, an option will be included to show a quick animation to display the hand.
 

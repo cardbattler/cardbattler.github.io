@@ -2,7 +2,7 @@
 layout: post
 title:  "Developer Log 6"
 date:   2020-05-28
-categories: jekyll update
+categories: devlog
 ---
 
 **Sandbox** - Matt
@@ -10,6 +10,8 @@ categories: jekyll update
 This week I implemented a Sandbox mode in our game client. This allows us (and any player) to run the game locally and test cards and mechanics against dummy players. To accompany this, I also made a new map with clusters of obstacles. Here’s how it looks:
 
 ![](https://cdn.discordapp.com/attachments/575192288951533571/715638648132862043/sandbox.png)
+
+<!--end_excerpt-->
 
 This project was particularly valuable to us because it makes testing significantly easier. Before this, to test any card, we had to: change the card data on the server, run it, start two instances of Godot for the client, run them both, connect to the server, go through character and position draft, then finally test the card all while managing 9 godot windows (one editor, one console, and one game window per each client and server). Now we can change the card data in the client, start the client and go to sandbox, pick a character and position, and then test the cards. This significantly reduces the time and complexity of testing new features.
 

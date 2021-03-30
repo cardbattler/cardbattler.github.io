@@ -2,7 +2,7 @@
 layout: post
 title:  "Developer Log 5"
 date:   2020-05-25
-categories: jekyll update
+categories: devlog
 ---
 
 **Animation** - Alex
@@ -11,6 +11,8 @@ This week Dev-Level animations were completed for the first three characters, Ad
 
 ![](https://cdn.discordapp.com/attachments/575192288951533571/714358323691913236/Adrenaline_Idle.gif.gif)![](https://cdn.discordapp.com/attachments/575192288951533571/714358325487337522/flow_idle.gif)![](https://cdn.discordapp.com/attachments/575192288951533571/714358321355685898/elementalist_idle.gif)
     
+<!--end_excerpt-->
+	
 These are our first non-placeholder characters (though how they look will certainly improve.) These characters are why this game idea excited me so much when Mitch first proposed it. Each character has a completely unique interaction with their base mechanic, and a card library that is diverse enough to allow for multiple play styles beyond standard fantasy archetypes.
 
 Following the Godot tutorial on cutout animation, some dev assets were quickly connected by a 2D skeleton. The previous pixel-style art was replaced by vector graphics, using the old graphics as a guide. By implementing inverse kinematic chains and some touch up by hand a result was achieved that almost conveys what might be happening. The assets are expected to improve considerably, but the idea is there. A graphic novel style is desired, and cut out animation services that feel well.

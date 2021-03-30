@@ -2,7 +2,7 @@
 layout: post
 title:  "Developer Log 1"
 date:   2020-05-11
-categories: jekyll update
+categories: devlog
 ---
 
 **The Big Picture** - Mitch
@@ -10,6 +10,8 @@ categories: jekyll update
 We recently asked for some help with narrowing down our name choice for the game. We asked friends, family, and the DayKnight community to take a short survey and with 20 responses these were the results with literally no context of the game.
 
 ![](https://cdn.discordapp.com/attachments/575192288951533571/708958390193356800/Screenshot_4.png)
+
+<!--end_excerpt-->
 
 We then gave people the following context and asked them to rank the names again.
 

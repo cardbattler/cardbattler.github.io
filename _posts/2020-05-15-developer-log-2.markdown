@@ -2,7 +2,7 @@
 layout: post
 title:  "Developer Log 2"
 date:   2020-05-15
-categories: jekyll update
+categories: devlog
 ---
 
 **Animation: When Push Comes to Shove** - Alex
@@ -16,6 +16,8 @@ During my original pass on some developer assets, I had put together some crude 
 The following idle animations feature our placeholder characters:
 
 ![](https://cdn.discordapp.com/attachments/575192288951533571/708945614674853909/archer.gif)![](https://cdn.discordapp.com/attachments/575192288951533571/708945691262844988/grapp.gif)![](https://cdn.discordapp.com/attachments/575192288951533571/708945751417421844/jugg.gif)
+
+<!--end_excerpt-->
 
 The frames I made were imported into Godot and added as texture keys in an AnimationPlayer. The AnimationPlayer updates the character’s avatar image, animating it.
 

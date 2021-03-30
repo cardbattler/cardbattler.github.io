@@ -2,7 +2,7 @@
 layout: post
 title:  "Developer Log 3"
 date:   2020-05-18
-categories: jekyll update
+categories: devlog
 ---
 
 **From Version to Version** - Mitch
@@ -12,6 +12,8 @@ This past week the team switched over to the next version of the game, V5 to V6,
 The first step is our roadmap. A while back we created a list of rough grain features that we thought were essential to our games completion. Using those features we project out about 2 months on our roadmap on Trello.
 
 ![](https://cdn.discordapp.com/attachments/575192288951533571/711851360634798130/Screenshot_9.png)
+
+<!--end_excerpt-->
 
 The rest of the roadmap is going to be kept private for internal use, but this gives you an idea of how we arrange things.
 
