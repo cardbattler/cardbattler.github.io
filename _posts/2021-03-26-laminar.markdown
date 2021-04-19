@@ -22,7 +22,8 @@ categories: characters
 		<td>Homeworld: Kinaara</td>
 	</tr>
 </table>
-Gameplay: Laminar feels unseen currents allowing him to flow like water itself; enhancing both his body and mind.
+Laminar feels unseen currents allowing him to flow like water itself; enhancing both his body and mind.
+
 <table style="border-collapse: collapse;">
 	<tr>
 		<td>Occupation(s):</td>
@@ -30,11 +31,11 @@ Gameplay: Laminar feels unseen currents allowing him to flow like water itself; 
 	</tr>
 	<tr>
 		<td>Likes:</td>
-		<td>Being relied on, celebrating, and navigating the oceans of Kinaara.</td>
+		<td>Fishing, celebrating, and navigating the oceans of Kinaara.</td>
 	</tr>
 	<tr>
 		<td>Dislikes:</td>
-		<td>Tourists and anyone who disresects the dead.</td>
+		<td>Tourism.</td>
 	</tr>
 	<tr>
 		<td>Quote:</td>

@@ -17,7 +17,8 @@ categories: characters
 		<td>Homeworld: Tayassu</td>
 	</tr>
 </table>
-Gameplay: Gnamma channels her deep connection to nature to work with her companion warthogs, Mulberry and Top Hat. Together they are a formidable force.
+Gnamma channels her deep connection to nature to work with her companion warthogs, Mulberry and Top Hat. Together they are a formidable force.
+
 <table style="border-collapse: collapse;">
 	<tr>
 		<td>Occupation(s):</td>
@@ -25,11 +26,11 @@ Gameplay: Gnamma channels her deep connection to nature to work with her compani
 	</tr>
 	<tr>
 		<td>Likes:</td>
-		<td>All life, balance, and playing fetch with Mulberry and Top Hat.</td>
+		<td>Nature conservancy, hiking, and playing fetch with Mulberry and Top Hat.</td>
 	</tr>
 	<tr>
 		<td>Dislikes:</td>
-		<td>Poachers and abusers of natural resources.</td>
+		<td>Poachers and opportunists.</td>
 	</tr>
 	<tr>
 		<td>Quote:</td>

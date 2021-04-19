@@ -27,6 +27,6 @@ The words that are chosen to describe a game are important. They paint a picture
 
 A list of all terms currently used in the game was compiled, shown above. The list was gone through term by term, each being weighed and measured to decide if it developed or distracted from an intended theme of intense yet healthy competition. This was a surprisingly lengthy process but yielded lore-backed justifications for how in a setting of war, death, and pain the Constelleum remains a place of playful contest.
 
-![New cut-out animation style Grappler walking away rubbing his stomach.](https://cdn.discordapp.com/attachments/575192288951533571/711812755149029456/flow_off_to_lunch.gif)
+![New cut-out animation style for the new character Flow walking away rubbing his stomach.](https://cdn.discordapp.com/attachments/575192288951533571/711812755149029456/flow_off_to_lunch.gif)
 
 Grappler is off to lunch for now, but he will be back next week to show what we have learned about Godot’s rigging and animation features!

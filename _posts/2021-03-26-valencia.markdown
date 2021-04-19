@@ -17,7 +17,8 @@ categories: characters
 		<td>Homeworld: Kinaara</td>
 	</tr>
 </table>
-Gameplay: Valencia loves the rush of adrenaline and seeks it out wherever she can. In sport she uses it to fuel herself to new heights.
+Valencia loves the rush of adrenaline and seeks it out wherever she can. In sport she uses it to fuel herself to new heights.
+
 <table style="border-collapse: collapse;">
 	<tr>
 		<td>Occupation(s):</td>
@@ -33,7 +34,7 @@ Gameplay: Valencia loves the rush of adrenaline and seeks it out wherever she ca
 	</tr>
 	<tr>
 		<td>Quote:</td>
-		<td>"I'm looking forward to this."</td>
+		<td>"I get to go all out against some of the greatest people alive? When do we start?"</td>
 	</tr>
 </table>
 

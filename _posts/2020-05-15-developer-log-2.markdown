@@ -5,7 +5,7 @@ date:   2020-05-15
 categories: devlog
 ---
 
-### Animation: When Push Comes to Shove - Alex
+#### Animation: When Push Comes to Shove - Alex
 
 Time to get things moving. This week we attacked the first pass on animations, not letting ourselves sit on idle hands.
 

@@ -5,7 +5,7 @@ date:   2020-05-25
 categories: devlog
 ---
 
-**Animation** - Alex
+#### Animation - Alex
 
 This week Dev-Level animations were completed for the first three characters, Adrenaline, Flow, and The Elemantalist replacing Juggernaut, Grappler, and Archer. 
 
