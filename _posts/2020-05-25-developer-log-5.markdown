@@ -5,7 +5,7 @@ date:   2020-05-25
 categories: devlog
 ---
 
-#### Animation - Alex
+### Animation - Alex
 
 This week Dev-Level animations were completed for the first three characters, Adrenaline, Flow, and The Elemantalist replacing Juggernaut, Grappler, and Archer. 
 
@@ -19,7 +19,7 @@ Following the Godot tutorial on cutout animation, some dev assets were quickly c
     
 ![Elementalist juggling icons representing fire, water, and earth](https://cdn.discordapp.com/attachments/575192288951533571/714353859308290058/elementalist_juggle.gif)
 
-#### User Experience and Readability - Alex
+### User Experience and Readability - Alex
 
 While designing status effects, (that is, buffs and debuffs,) it became clear some statuses might confuse players if the statuses have multiple numbers. The current strength and/or duration system was also visually busy.
 

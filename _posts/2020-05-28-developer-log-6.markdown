@@ -5,11 +5,11 @@ date:   2020-05-28
 categories: devlog
 ---
 
-#### Sandbox - Matt
+### Sandbox - Matt
 
 This week I implemented a Sandbox mode in our game client. This allows us (and any player) to run the game locally and test cards and mechanics against dummy players. To accompany this, I also made a new map with clusters of obstacles. Here’s how it looks:
 
-![Map with circles of cracks, vines, and walls,](https://cdn.discordapp.com/attachments/575192288951533571/715638648132862043/sandbox.png)
+![Map with circles of cracks, vines, and walls](https://cdn.discordapp.com/attachments/575192288951533571/715638648132862043/sandbox.png)
 
 <!--end_excerpt-->
 

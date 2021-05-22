@@ -5,7 +5,7 @@ date:   2020-05-21
 categories: devlog
 ---
 
-#### Bugs and Bugs and Bugs, Oh My! - Alex
+### Bugs and Bugs and Bugs, Oh My! - Alex
 
 Our first playtest in mid-April revealed nasty bugs already present in our still simple game. Players reported crashes when viewing their own hands on other player’s turns, starting positions were determined based on connection order instead of team (A feature -Mitch), and attacks that were not meant to deal damage could be buffed to deal damage. The bugs were fantastic to see and fascinating to squash, because they drew us deeper into the very powerful Godot engine.
 
@@ -19,7 +19,7 @@ This week, Mitch and I went after crashes, odd interactions, and other bugs that
 
 To fix buffing zero strength attacks, we added a new action, “Apply Status,” which adds statuses to the target without referencing health. Direct application of statuses adds a lot of flexibility to utility focused cards.
 
-#### The Great Word Exchange - Alex
+### The Great Word Exchange - Alex
 
 The words that are chosen to describe a game are important. They paint a picture before anything even starts moving, a theater of the mind strengthened by the following visuals. Because this game is about a sport-like competition rather than gladiatorial combat, we knew we wanted to stay away from words that implied death, e.g. poisoned, attack, killed. And there is language that has become a staple of the fantasy genre. A balance was struck between language that new players may recognize from role playing games, avoiding using tropes as a crutch, and inviting all players to a unique and complex world.
 

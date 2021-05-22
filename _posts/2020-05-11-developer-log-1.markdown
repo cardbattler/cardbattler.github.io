@@ -5,7 +5,7 @@ date:   2020-05-11
 categories: devlog
 ---
 
-#### The Big Picture - Mitch
+### The Big Picture - Mitch
 
 We recently asked for some help with narrowing down our name choice for the game. We asked friends, family, and the DayKnight community to take a short survey and with 20 responses these were the results with literally no context of the game.
 
@@ -33,7 +33,7 @@ Mitch - Organization, Design
 
 None of these roles are very hard and fast. The group is extremely democratic and everyone has had their fingers over a variety of elements of the project.
 
-#### Starting Positions and Where to Find Them - Matt
+### Starting Positions and Where to Find Them - Matt
 
 One thing I worked on this week was adding a new game phase for players to select their starting positions. Previously, starting positions existed in a predefined list, and they were assigned to players on a first-come-first-serve basis upon character selection. When you started the game, you were placed somewhere on the field with no explanation—maybe near friends and maybe near foes.
 

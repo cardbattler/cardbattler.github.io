@@ -5,7 +5,7 @@ date:   2020-05-18
 categories: devlog
 ---
 
-#### From Version to Version - Mitch
+### From Version to Version - Mitch
 
 This past week the team switched over to the next version of the game, V5 to V6, so this felt like an opportune time to share a bit of our process. I can’t say it’s anything special, but it works for us so on some level that just means it works.
 
@@ -41,7 +41,7 @@ And then lastly we convert the outline into to do items on another Trello board.
 
 It all ends up working fairly smoothly and there haven’t been any hiccups with the process itself. The versions feel concrete and chunky with a general goal of them being about a month worth of development. Entering V6 our hopes are that by V11 we’ll be ready for launch.
 
-#### Card UI Goes to the Spa - Matt
+### Card UI Goes to the Spa - Matt
 
 A fun project I tackled this week was updating our card layout and UI. In our game, the cards pose an interesting design challenge because there are two opposing forces driving them. On one hand, our cards need to have a broad and expressive language to enable rich and complex strategies. But on the other hand, cards are a fundamental component of our gameplay and therefore they need to be easily understandable and concise.
 
