@@ -17,7 +17,7 @@ As a small development team we rarely have enough players for a full match of Co
 
 This worked well enough for our last playtest, but is too feature light for our future needs. While Constelleum will largely be focused around its main gameplay mode, allowing players to create lobbies to fit their more specific needs has always been a part of our long-term goal. Enter the new lobby system.
 
-<!--![New Lobby UI.](https://cdn.discordapp.com/attachments/575192288951533571/849839858947588106/unknown.png)-->
+![New Lobby UI.](https://cdn.discordapp.com/attachments/575192288951533571/849839858947588106/unknown.png)
 
 Ooooo Ahhhhh.
 
