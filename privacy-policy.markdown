@@ -23,14 +23,15 @@ By using the Service, you agree to the terms of this Privacy Policy. Please read
 3.	What types of personal data do we collect?
 Below you’ll find details about the types of personal data we collect from you and how we use it. We call this “processing” your data. 
 We’ll also tell you the reason for processing that data, which is known as our “legal basis.”
-First, the personal data we collect from you: 
+First, the personal data we collect from you:
+
 Type of data | Examples of the data | How we use it | Our legal basis
 ---|---|---|---
-Contact Information	| • Email Address <br> • Discord ID	| To contact you for technical support and customer support purposes, for marketing and promotional purposes, and to administer contests and sweepstakes | Based on your explicit consent, under GDPR Art. 6 (1) (a).
-Account Information | •	Email Address <br> • Username <br> • Discord ID | To create and manage your Account on the Service, to ensure your purchases are credited to your account, to contact you for technical support and customer support purposes, to contact you for marketing and promotional purposes, and to administer contests and sweepstakes | To fulfill a contract with you, under GDPR Art. 6 (1) (b).
-Technical Information | • Your Device Type <br> • Your Operating System	| For general Service operations, and to analyze user activity and to improve the Service | To fulfill a contract with you, under GDPR Art. 6 (1) (b).
-Analytic Information | • IP Address <br> • Gameplay Data | To analyze user activity and improve the Service | To fulfill a contract with you, under GDPR Art. 6 (1) (b).
-Your Posts | • Chat Messages <br> • Comments <br> • other public posts on the Service | To operate community spaces and public posting abilities on the Service | To fulfill a contract with you, under GDPR Art. 6 (1) (b). 
+Contact Information	| • Email Address • Discord ID	| To contact you for technical support and customer support purposes, for marketing and promotional purposes, and to administer contests and sweepstakes | Based on your explicit consent, under GDPR Art. 6 (1) (a).
+Account Information | •	Email Address • Username • Discord ID | To create and manage your Account on the Service, to ensure your purchases are credited to your account, to contact you for technical support and customer support purposes, to contact you for marketing and promotional purposes, and to administer contests and sweepstakes | To fulfill a contract with you, under GDPR Art. 6 (1) (b).
+Technical Information | • Your Device Type • Your Operating System	| For general Service operations, and to analyze user activity and to improve the Service | To fulfill a contract with you, under GDPR Art. 6 (1) (b).
+Analytic Information | • IP Address • Gameplay Data | To analyze user activity and improve the Service | To fulfill a contract with you, under GDPR Art. 6 (1) (b).
+Your Posts | • Chat Messages • Comments • other public posts on the Service | To operate community spaces and public posting abilities on the Service | To fulfill a contract with you, under GDPR Art. 6 (1) (b). 
 
 Next, the personal data that third parties share with us:
 
@@ -42,7 +43,7 @@ Discord | Account Information and Posts | To operate community spaces and enable
 Finally, the personal data that we share with others:
 
 Our reason for sharing | What data is being shared? | Who are we sharing it with? | Their privacy policy
----|---|---
+---|---|---|---
 Server hosting | Account Information, Analytic Information, Contact Information, Posts, and Technical Information | Digital Ocean | https://www.digitalocean.com/legal/privacy-policy
 Newsletters | Account Information and Contact Information | Tiny Letter | https://www.intuit.com/privacy/statement/
 Email forwarding and DNS | Account Information and Contact Information | Namecheap | https://www.namecheap.com/legal/general/privacy-policy/
