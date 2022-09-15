@@ -4,8 +4,7 @@ title: Terms of Use
 permalink: /terms-of-use/
 ---
 
-CONSTELLEUM - TERMS OF USE
-
+CONSTELLEUM - TERMS OF USE \
 LAST MODIFIED ON 9/15/2022
 
 Important: Please read these Terms of Use carefully before continuing to use this website.
@@ -132,10 +131,11 @@ When we receive a notice alleging copyright infringement, we will take whatever 
 *	A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
 
 Our Copyright Agent may be reached at the following physical or email address:
-Copyright Agent 
-Constelleum Games LLC 
-44804 East Highway 28 
-Morris, MN 56267
+
+Copyright Agent \
+Constelleum Games LLC \
+44804 East Highway 28 \
+Morris, MN 56267 \
 Or by email at: support@constelleum.com
 
 Any user of the Service that repeatedly infringes third party copyright or other intellectual property rights will have their Account suspended or terminated.
