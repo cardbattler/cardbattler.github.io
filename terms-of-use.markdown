@@ -5,7 +5,9 @@ permalink: /terms-of-use/
 ---
 
 CONSTELLEUM - TERMS OF USE
+
 LAST MODIFIED ON 9/15/2022
+
 Important: Please read these Terms of Use carefully before continuing to use this website.
 
 Section 22 of this Terms of Use Agreement contains a binding arbitration clause and class action waiver. If you live in the United States, this Section affects your rights about how to resolve disputes that you may have with us. 
@@ -14,7 +16,7 @@ Please read it carefully.
 
 This Terms of Use (the “Agreement”) applies to the “Constelleum” game and website located at https://constelleum.com/ (together, the “Service”), provided by Constelleum Games LLC (“Constelleum Games”).
 
-1.	Acceptance of Terms
+1\.	Acceptance of Terms
 By continuing to use the Service, you agree as follows:
 
 1.1.	You understand and intend that this Agreement is a legally binding agreement and the equivalent of a signed, written contract;
@@ -24,17 +26,18 @@ By continuing to use the Service, you agree as follows:
 1.3.	You understand, accept, and have received this Agreement and its terms and conditions, and acknowledge and demonstrate that you can access this Agreement.
 If you do not agree with the terms and conditions in this Agreement, please discontinue all further use of the Service.
 
-2.	Constelleum Games’ License to You
+2\.	Constelleum Games’ License to You
 Constelleum Games grants you a single, non-exclusive, non-transferable and limited personal license to access and use the Service. This license is conditioned on your continued compliance with the terms and conditions in this Agreement. You may not rent, lease, lend, sell, transfer, redistribute, or sublicense the Service and, if you sell or otherwise transfer a device on which any part of the Service is installed to a third party, you must remove the Service from such device before doing so. You may not copy, decompile, reverse-engineer, disassemble, attempt to derive the source code of, modify, or create derivative works of the Service, any updates, or any part thereof (except as and only to the extent that any foregoing restriction is prohibited by applicable law or to the extent as may be permitted by the licensing terms governing use of any open-sourced components included with the Service).
 
-3.	Messages from Constelleum Games
+3\.	Messages from Constelleum Games
 You understand that you may receive business-related communications from Constelleum Games through the Service or through email, such as product and other announcements, and administrative notices. You agree that these communications are not “unsolicited commercial email advertisements” and you agree to receive them. 
 Marketing-related email messages will be accompanied by instructions for opting out.
 
-4.	Third-Party Platforms
+4\.	Third-Party Platforms
 Even though you may have purchased or licensed the Service through a third-party platform, such as Valve’s Steam platform or other PC-based platforms (each, a “Third-Party Platform”), none of the Third-Party Platforms or their owners are a party to this Agreement and they have no obligations to you in connection with the Service.
 
-5.	Your Account
+5\.	Your Account
+
 5.1.	Account Creation. You may need to register for an account or connect a third-party account in order to use the Service (your “Account”). You may only create an Account if you are at least 13 years old. If you are at least 13 years of age but still a minor in your jurisdiction, your parent or legal guardian must establish an Account with us in order for you to access and use the Service. 
 
 You are solely responsible for the activity that occurs on your Account. You agree to keep your Account and devices secure and to notify Constelleum Games immediately of any breach of security or unauthorized use of your Account.
@@ -55,7 +58,8 @@ You are solely responsible for the activity that occurs on your Account. You agr
 
 5.6.	No Account Purchases and Transfers. You may not buy, sell, give, or trade any Account, nor attempt to buy, sell, give, or trade any Account. Constelleum Games owns, has licensed, or otherwise has rights to all the content that appears in-Service, including Accounts.
 
-6.	Your License to Constelleum Games; Your Conduct
+6\.	Your License to Constelleum Games; Your Conduct
+
 6.1.	Your Content. Any communications or material of any kind that you post, email, upload, or otherwise transmit to Constelleum Games or the public on or using the Service, including photographs, chat, emails, comments, voice recordings, data, questions, comments, or suggestions are known as your “Content.”
 
 Constelleum Games does not own your Content. By posting Content, you represent (i) that you are the owner of the Content or have all of the necessary rights to share them, and (ii) give Constelleum Games permission to use, re-use, copy, adapt, abridge, amend, distribute, modify, translate, publish, perform, display, develop, reproduce, communicate to the public and to make your Content otherwise available in any form and by any media (whether now known or hereafter devised), including through any on-demand or broadcast service, whether on a commercial or non-commercial basis anywhere in the world, including the right to incorporate any suggestions or feedback into the Service as new or updated features, without limitation.
@@ -80,35 +84,42 @@ Constelleum Games does not own your Content. By posting Content, you represent (
 *	contains, or uploads files that contain, viruses, Trojan horses, worms, corrupted files or data, or any other similar software or programs that may damage or inhibit the operation of the Service; or 
 *	anything else that Constelleum Games, in its sole determination, deems offensive or harmful to the Service or to Constelleum Games’ integrity or business.
 
-7.	Virtual Items
+7\.	Virtual Items
+
 Virtual goods, downloadable content, and virtual “tokens” or currency (collectively, “Virtual Items”) may be offered for purchase or otherwise earned through the Service. Your election to make a purchase with real currency will be an offer to Constelleum Games to purchase at the prices and on the terms set forth on the Service. 
 You agree that you have no right or title in or to any Virtual Items. Constelleum Games does not recognize any purported transfers of Virtual Items outside of the Service, or the purported sale, gift, or trade in the “real world” of anything that appears or originates in the Service. You may not sell Virtual Items for “real” money, or exchange those Virtual Items for value outside of the Service. 
 To be clear, Virtual Items have no real-world value and are licensed, not owned.
 Unless required by law or otherwise specified on the Service or by the Third-Party Platform you access the Service through, all sales of Virtual Items are final when the transaction has been processed and no refunds will be given.
 
-8.	Support Services
+8\.	Support Services
+
 Constelleum Games may, in its sole discretion, provide you with customer and technical support services related to the Service (“Support Services”). Constelleum Games is not required to provide Support Services unless otherwise required by applicable law. No failure to provide, or to continue to provide, Support Services will be a default of Constelleum Games under this Agreement. Any supplemental software code provided to you as part of the Support Services will be treated as part of the Service, and as between you and Constelleum Games will be and remain the sole property of Constelleum Games and will be subject to the terms and conditions of this Agreement. 
 Constelleum Games customer support may be reached by contacting us at support@constelleum.com. None of the Third-Party Platforms or their owners have any obligation whatsoever, under any circumstances, to provide Support Services with respect to the Service. You agree that you will look solely to Constelleum Games in connection with Support Services.
 
-9.	Modification, Termination, and Monitoring of the Service
+9\.	Modification, Termination, and Monitoring of the Service
+
 Constelleum Games reserves the right to modify or discontinue, temporarily or permanently, the Service (or any part of the Service) with or without notice at any time. You agree that Constelleum Games will not be liable to you or any third party for any modification, suspension, or discontinuance of the Service.
 
 Constelleum Games reserves the right to monitor use of the Service to determine compliance with this Agreement, as well as the right to edit, refuse to post, or remove any Content, information, or materials, in whole or in part, at our sole discretion. We reserve the right to refuse access to the Service to anyone, or terminate any Account, for any reason, at any time.
 Constelleum Games may monitor your Content and other communications to evaluate the quality of service you receive, your compliance with the Agreement, the security of the Service, or for other reasons. You agree that such monitoring activities will not entitle you to any cause of action or other right with respect to the manner in which Constelleum Games or its affiliates or agents monitor your Content and other communications and enforces or fails to enforce the terms of the Agreement. In no event will Constelleum Games or any of its affiliates or agents be liable for any costs, damages, expenses, or any other liabilities incurred by you as a result of monitoring activities by Constelleum Games or its affiliates or agents.
 
-10.	Security of Data Transmission and Storage
+10\. Security of Data Transmission and Storage
+
 Electronic communications using the Service may not always be encrypted. You acknowledge that there is a risk that data, including email, electronic communications, and personal data, may be accessed by unauthorized third parties when communicated between you and Constelleum Games or between you and other parties. Additionally, your communications and Content on the Service may be publicly available to other parties.
 
 Constelleum Games and its affiliates and agents are permitted, but not obligated, to review or retain your Content and other communications.
 
-11.	Hyperlinks
+11\. Hyperlinks
+
 The Service may contain links to other sites and software applications, including through display advertisements (the “Linked Services”). Constelleum Games does not control the Linked Services, and Constelleum Games and its affiliates and agents make no representations whatsoever concerning the content, accuracy, security or privacy of those Linked Services. The fact that Constelleum Games has provided a link to an external location is not an endorsement, authorization, sponsorship, or affiliation with respect to such Linked Services, its owners, or its providers. There are risks in using any information, software, or products found on the Internet, and Constelleum Games cautions you to make sure you understand these risks before retrieving, using, relying upon, or purchasing anything via the Internet. You agree that under no circumstances will you hold Constelleum Games or its affiliates or agents liable for any loss or damage caused by use of or reliance on any content, goods, or services available on Linked Services.
 
-12.	Trademarks and Copyrights
+12\. Trademarks and Copyrights
+
 The Service is owned by Constelleum Games and is protected by United States copyright laws and international treaty provisions. All Service content, trademarks, services marks, trade names, logos, and icons are proprietary to Constelleum Games or used under license. Nothing contained in the Service should be seen as granting any license or right to use any trademark displayed in the Service without the written permission of Constelleum Games or such third party that may own the trademarks displayed in the Service. Your use of the trademarks displayed in the Service, or any other content in the Service, except as provided in this Agreement, is strictly prohibited.
 Intellectual property displayed through the Service is either the property of, or used with permission by, Constelleum Games. You are prohibited from using or authorizing the use of this intellectual property unless specifically permitted under the Agreement. Any unauthorized use of this intellectual property may violate copyright laws, trademark laws, the laws of privacy and publicity, or other regulations and statutes.
 
-13.	Copyright Complaints
+13\. Copyright Complaints
+
 If you are a copyright owner or their agent, and believe that any content on the Service infringes on your copyrights, you may submit a DMCA notification in writing to our Copyright Agent with the following information described below. 
 
 When we receive a notice alleging copyright infringement, we will take whatever action we deem appropriate, within our sole discretion, including removal of the allegedly infringing materials and termination of access for repeat infringers of copyright protected content.
@@ -129,7 +140,8 @@ Or by email at: support@constelleum.com
 
 Any user of the Service that repeatedly infringes third party copyright or other intellectual property rights will have their Account suspended or terminated.
 
-14.	Disclaimer of Warranties
+14\. Disclaimer of Warranties
+
 Your use of the Service is entirely at your own risk. 
 
 The Service is provided by Constelleum Games on an as-is basis. Constelleum Games expressly disclaims all warranties of any kind, whether express or implied, including, but not limited to the implied warranties of merchantability, fitness for a particular purpose and non-infringement.
@@ -141,36 +153,42 @@ To the maximum extent permitted by applicable law, no Third-Party Platform is a 
 
 Because some states or jurisdictions do not allow the disclaimer of implied warranties, the foregoing disclaimer will be limited to the fullest extent permitted by law.
 
-15.	Limitation of Liability
+15\. Limitation of Liability
+
 You expressly understand and agree that neither Constelleum Games nor any Third-Party Platform is liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including damages for loss of profits, goods, goodwill, use, data, or other intangible losses (even if Constelleum Games or the Third-Party Platform has been advised of the possibility of such damages), resulting from the use or the inability to use the Service or any other matter relating to the Service.
 
 You hereby expressly and irrevocably waive, and agree never to assert any claims against any Third-Party Platform that you may have under any theory of law or equity anywhere in the world, in connection with rights licensed under this Agreement, your possession or use of the Service, or the content of the Service. Any claims arising out of the Service are subject to the limitations set forth in this Agreement and may be brought only against Constelleum Games, as described in Sections 21 and 22 below.
 
-
 Because some states or jurisdictions do not allow the exclusion or the limitation of liability for consequential or incidental damages, in such states or jurisdictions, the liability of Constelleum Games and its affiliates will be limited to the fullest extent permitted by law.
 
-16.	Indemnification
+16\. Indemnification
+
 You agree to indemnify and hold Constelleum Games and its affiliates, officers, agents, and employees harmless from any claim, demand, loss, costs, or expense, including attorneys’ fees, made by any person or entity arising out of your violation of this Agreement, state or federal laws or regulations, or any other person’s rights, including infringement of any copyright or violation of any proprietary or privacy right. Under no circumstances, including any negligent act, will Constelleum Games or its affiliates or agents be liable for any damages of any kind that result from the use of, or the inability to use, the Service.
 
-17.	Your Personal Information
+17\. Your Personal Information
+
 Certain personal and other information that we collect, process, and share is subject to our Privacy Policy.  As a condition of using the Service you agree to the terms of the Privacy Policy, as it may be changed from time to time. Our Privacy Policy, which is incorporated here by reference, is located at https://constelleum.com/privacy. You agree that your use of the Service is subject to the Privacy Policy.
 
-18.	Disclosures Required by Law
+18\. Disclosures Required by Law
+
 Constelleum Games reserves the right to disclose any information, including personally identifiable information about you, as necessary to satisfy any applicable law, regulation, legal process, or governmental request. Constelleum Games reserves the right to fully cooperate with any law enforcement authorities or court order requesting or directing Constelleum Games to disclose the identity of any user believed to be in violation of this Agreement.
 By accepting this Agreement, you waive all rights and agree to hold Constelleum Games harmless from any claims resulting from any action taken by Constelleum Games during or as a result of its investigations or from any actions taken as a consequence of investigations by either Constelleum Games or law enforcement authorities.
 
-19.	Legal Compliance
+19\. Legal Compliance
+
 By using the Service, you represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country; and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties.
 
-20.	Third-Party Beneficiary
+20\. Third-Party Beneficiary
+
 You acknowledge and agree that the Third-Party Platforms are third party beneficiaries of this Agreement, and that, upon your acceptance of the terms and conditions of this Agreement, any of the foregoing third parties will have the right (and will be deemed to have accepted the right) to enforce this Agreement as a third-party beneficiary.
 
-21.	Governing Law; Mediation; Jurisdiction
+21\. Governing Law; Mediation; Jurisdiction
+
 The Agreement, and all future agreements you enter into with Constelleum Games, unless otherwise indicated on such other agreement, will be governed by the laws of the State of Minnesota. This is the case regardless of whether you reside or transact business with Constelleum Games, or any of its affiliates or agents, in the State of Minnesota or elsewhere. Unless a dispute would be governed by the terms of Section 22 below, you agree to submit to the personal and exclusive jurisdiction of the courts located within the city of Morris, Minnesota, USA.
 
 For EU users only: In the event of a dispute relating to the interpretation, performance, or validity of this Agreement, an amicable solution can be sought before any legal action. You can file your complaint with Constelleum Games by sending a message via email to support@constelleum.com. In case of failure, you can, within one year of the failed request, have recourse to an Alternative Dispute Resolution procedure by filing an online complaint on the European Commission’s Online Dispute Resolution website: https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage. In the event that out-of-court dispute resolutions fail, the dispute may be brought before the competent courts.
 
-22.	Binding Arbitration
+22\. Binding Arbitration
 
 Any dispute or claim relating in any way to your use of the Service (each, a “Claim”) will be resolved by binding arbitration, rather than in court (except that you may assert claims in small-claims court if your claims qualify). You agree that each Claim must be brought individually.
 
@@ -190,7 +208,8 @@ BY AGREEING TO THIS ARBITRATION PROVISION, YOU UNDERSTAND THAT YOU AND CONSTELLE
 
 You and Constelleum Games agree that if any portion this Section is found illegal or unenforceable, that portion will be severed and the remainder of the Section will be given full force and effect.
 
-23.	Miscellaneous Terms
+23\. Miscellaneous Terms
+
 23.1.	Agreement Revisions. This Agreement may only be revised in writing by Constelleum Games, or by Constelleum Games’ publication of a new version on the Service.
 
 23.2.	Force Majeure. Constelleum Games is not liable for any delay or failure to perform resulting from causes outside the reasonable control of Constelleum Games, including without limitation any failure to perform hereunder due to unforeseen circumstances or cause beyond Constelleum Games’ control such as acts of God, war, terrorism, riots, embargoes, acts of civil or military authorities, fire, floods, accidents, strikes, or shortages of transportation facilities, fuel, energy, labor, or materials.
