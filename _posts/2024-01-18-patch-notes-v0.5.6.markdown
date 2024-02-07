@@ -5,7 +5,7 @@ date:   2024-01-18
 categories: patches,devlog
 ---
 
-Hey folks we've got an update chocked full of goodies for you this week. You can read more about the high-level big new features below or skip to the bulleted lists below,
+Hey folks we've got an update chocked full of goodies for you this week. You can read more about the high-level big new features below or skip to the bulleted lists below.
 
 Meet Sayyora, the newest addition to the Constelleum cast! She is a traveling prosthetist who gains a "Rambling" resource with each space she moves on the field. This resource counter affects when and how she can collect orbs and score, and also enhances several of her cards. She was inspired by the Rambler prototype character, but she is fully unique with reworked mechanics and full art/vfx. She is still movement focused with exceptional positioning options, but her "Rambling" status resource management is now much more interactive and will remain an important consideration throughout the entire game instead of just the first and last round. Her cards also have some creative new uses of old mechanics, so expect novel gameplay beyond her Rambling status! We hope you have fun with this new character. To learn more, check out Sayyora in the Deck Builder and Sandbox.
 

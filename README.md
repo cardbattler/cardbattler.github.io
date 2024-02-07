@@ -5,14 +5,12 @@ This website is built using jekyll 4.2. It should be possible to host on github.
 ## Installation Requirements
 
 1. Ruby
-2. Jekyll 4.2 (`gem install bundler jekyll`)
-3. NodeJS + npm
+2. Jekyll 4.3.3 (`gem install bundler jekyll`)
 
 ## Setting up
 
 1. Get the website repository: `git clone https://github.com/cardbattler/website.git`
-2. Install node dependencies: `npm install`
-3. Install ruby dependencies: `bundle install`
+2. Install ruby dependencies: `bundle install`
 
 ## Running the Development Server
 

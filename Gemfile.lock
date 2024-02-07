@@ -74,8 +74,9 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  jekyll (~> 4.3.0)
+  jekyll (~> 4.3.3)
   jekyll-feed (~> 0.12)
+  jekyll-sass-converter (~> 3.0)
   jekyll-seo-tag (~> 2.6)
   tzinfo (~> 1.2)
   tzinfo-data
