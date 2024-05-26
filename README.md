@@ -1,15 +1,15 @@
 # Constelleum Website
 
-This website is built using jekyll 4.2. It should be possible to host on github.io, but it would require using the github gem, and checking the node_modules directory into github, which I currently have not done.
+This website is hosted on github.io.
 
 ## Installation Requirements
 
 1. Ruby
-2. Jekyll 4.3.3 (`gem install bundler jekyll`)
+2. 'github-pages', group: :jekyll_plugins (`gem install bundler jekyll`)
 
 ## Setting up
 
-1. Get the website repository: `git clone https://github.com/cardbattler/website.git`
+1. Get the website repository: `git clone https://github.com/cardbattler/carbattler.github.io.git`
 2. Install ruby dependencies: `bundle install`
 
 ## Running the Development Server
