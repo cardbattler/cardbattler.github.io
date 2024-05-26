@@ -11,9 +11,9 @@ We recently asked for some help with narrowing down our name choice for the game
 
 <figure>
     <img
-        src="{{site.url}}/assets/images/2020-05-11-developer-log-1/Screenshot_4.png" 
+        src="{{site.baseurl}}/assets/images/2020-05-11-developer-log-1/Screenshot_4.png" 
         alt="Column graphs rating the names Celestian Accord, Confluence of Light, Constelleum, and Fractured Constellation 1 through 4."
-        longdesc="{{site.url}}/assets/long_descriptions/uninformed_name_survey.markdown"
+        longdesc="{{site.baseurl}}/assets/long_descriptions/uninformed_name_survey.markdown"
     >
 </figure>
 
@@ -25,9 +25,9 @@ Lore wise the game takes place in a fantastical universe where people live on th
 
 <figure>
     <img
-        src="{{site.url}}/assets/images/2020-05-11-developer-log-1/Screenshot_3.png" 
+        src="{{site.baseurl}}/assets/images/2020-05-11-developer-log-1/Screenshot_3.png" 
         alt="Column graphs rating the names Celestian Accord, Confluence of Light, Constelleum, and Fractured Constellation 1 through 4."
-        longdesc="{{site.url}}/assets/long_descriptions/informed_name_survey.markdown"
+        longdesc="{{site.baseurl}}/assets/long_descriptions/informed_name_survey.markdown"
     >
 </figure>
 
@@ -54,7 +54,7 @@ The starting position draft phase begins when everyone has selected their charac
 
 <figure>
     <img
-        src="{{site.url}}/assets/images/2020-05-11-developer-log-1/8hfn2-ivD26z4IFfR8mhHh55Jfxgvny9D2_-LmWu8IMpWjG6qowPKKrufVJA81erMU4ynh6s0gGXQUVeLdVSkbqdC69CznWtgfSm.png"
+        src="{{site.baseurl}}/assets/images/2020-05-11-developer-log-1/8hfn2-ivD26z4IFfR8mhHh55Jfxgvny9D2_-LmWu8IMpWjG6qowPKKrufVJA81erMU4ynh6s0gGXQUVeLdVSkbqdC69CznWtgfSm.png"
         alt="Starting position hexagons are highlighted. 2 characters have been tentatively placed."
     >
 </figure>
@@ -63,7 +63,7 @@ To prevent overlap between player’s selections, the server is the arbiter of a
 
 <figure>
     <img
-        src="{{site.url}}/assets/images/2020-05-11-developer-log-1/bIoz62zYmjd7FW1tJynPlQlTmlVk-xCRTiYDW3OEmn7Cu1jkfg1kAcQ5juHp_kYdDf9u3C2H0eOSadY2cU8OgumK-XE_l2jdgJsd.png"
+        src="{{site.baseurl}}/assets/images/2020-05-11-developer-log-1/bIoz62zYmjd7FW1tJynPlQlTmlVk-xCRTiYDW3OEmn7Cu1jkfg1kAcQ5juHp_kYdDf9u3C2H0eOSadY2cU8OgumK-XE_l2jdgJsd.png"
         alt="Starting position hexagons are highlighted. One player has submitted their position and the hexagon unhighlighted."
     >
 </figure>
@@ -74,7 +74,7 @@ To facilitate this new starting position draft, I also made a few updates to our
 
 <figure>
     <img
-        src="{{site.url}}/assets/images/2020-05-11-developer-log-1/maptool.gif"
+        src="{{site.baseurl}}/assets/images/2020-05-11-developer-log-1/maptool.gif"
         alt="Clicks and highlights hexagons before adding the wall obstacle from a drop-down."
     >
 </figure>
