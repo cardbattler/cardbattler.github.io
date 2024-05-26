@@ -11,7 +11,7 @@ Our first playtest in mid-April revealed nasty bugs already present in our still
 
 Matt posted last week on how he implemented a Starting Position Phase to fix the initial violation of personal space.
 
-![Two players starting next to one from the opposing team with the words fancy meeting you here.](https://cdn.discordapp.com/attachments/575192288951533571/711812751218966569/fancy_meeting.png)
+![Two players starting next to one from the opposing team with the words fancy meeting you here.]({{site.url}}/assets/images/2020-05-21-developer-log-4/fancy_meeting.png)
 
 <!--end_excerpt-->
 
@@ -23,10 +23,10 @@ To fix buffing zero strength attacks, we added a new action, “Apply Status,”
 
 The words that are chosen to describe a game are important. They paint a picture before anything even starts moving, a theater of the mind strengthened by the following visuals. Because this game is about a sport-like competition rather than gladiatorial combat, we knew we wanted to stay away from words that implied death, e.g. poisoned, attack, killed. And there is language that has become a staple of the fantasy genre. A balance was struck between language that new players may recognize from role playing games, avoiding using tropes as a crutch, and inviting all players to a unique and complex world.
 
-![Fast scroll of all of the vocabulary in the game.](https://cdn.discordapp.com/attachments/575192288951533571/711812758802268200/vocab_list.gif)
+![Fast scroll of all of the vocabulary in the game.]({{site.url}}/assets/images/2020-05-21-developer-log-4/vocab_list.gif)
 
 A list of all terms currently used in the game was compiled, shown above. The list was gone through term by term, each being weighed and measured to decide if it developed or distracted from an intended theme of intense yet healthy competition. This was a surprisingly lengthy process but yielded lore-backed justifications for how in a setting of war, death, and pain the Constelleum remains a place of playful contest.
 
-![New cut-out animation style for the new character Flow walking away rubbing his stomach.](https://cdn.discordapp.com/attachments/575192288951533571/711812755149029456/flow_off_to_lunch.gif)
+![New cut-out animation style for the new character Flow walking away rubbing his stomach.]({{site.url}}/assets/images/2020-05-21-developer-log-4/flow_off_to_lunch.gif)
 
 Grappler is off to lunch for now, but he will be back next week to show what we have learned about Godot’s rigging and animation features!

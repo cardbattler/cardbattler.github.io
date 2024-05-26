@@ -11,13 +11,13 @@ This week I'm reporting in for Alex who has been hard at work on our new lobby s
 
 As a small development team we rarely have enough players for a full match of Constelleum. Because of this we often need to play with unconventional game configurations like two versus one. In order to do this we needed to restart the server with new parameters which just slowed things down. More recently we've been using this very simple lobby system depicted below.
 
-![Old UI for queueing and creating lobbies.](https://cdn.discordapp.com/attachments/575192288951533571/849831448936316978/Screenshot_32.png)
+![Old UI for queueing and creating lobbies.]({{site.url}}/assets/images/2021-05-24-developer-log-8/Screenshot_32.png)
 
 <!--end_excerpt-->
 
 This worked well enough for our last playtest, but is too feature light for our future needs. While Constelleum will largely be focused around its main gameplay mode, allowing players to create lobbies to fit their more specific needs has always been a part of our long-term goal. Enter the new lobby system.
 
-![New Lobby UI.](https://cdn.discordapp.com/attachments/575192288951533571/849839858947588106/unknown.png)
+![New Lobby UI.]({{site.url}}/assets/images/2021-05-24-developer-log-8/unknown.png)
 
 Ooooo Ahhhhh.
 
