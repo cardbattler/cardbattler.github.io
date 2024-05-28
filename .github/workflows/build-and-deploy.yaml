@@ -1,0 +1,52 @@
+name: Build and Deploy Jekyll Site
+
+# Trigger the workflow on push and pull request events to the 'main' branch
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    # The job will run on the latest Ubuntu runner
+    runs-on: ubuntu-22.04
+
+    steps:
+      # Step 1: Check out the repository content to the GitHub runner
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Docker Buildx for building Docker images
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Step 3: Cache Docker layers to speed up subsequent builds
+      - name: Cache Docker layers
+        uses: actions/cache@v3
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
+
+      # Step 4: Build the Docker image defined in the Dockerfile
+      - name: Build the Docker image
+        run: docker build --tag jekyll-4.3.3 .
+
+      # Step 5: Run a container from the built image to execute the Jekyll build command
+      - name: Run Jekyll to build the site
+        run: docker run --rm -v ${{ github.workspace }}:/srv/jekyll jekyll-4.3.3 jekyll build
+
+      # Step 6: Deploy the built site to GitHub Pages (only on the main branch)
+      - name: Upload Jekyll site to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        # If you're changing the branch from main,
+        # also change the `main` in `refs/heads/main`
+        # below accordingly.
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
