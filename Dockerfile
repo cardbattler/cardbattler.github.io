@@ -185,7 +185,7 @@ RUN chown -R jekyll:jekyll \
   /usr/gem/cache/bundle
 
 CMD ["jekyll", "--help"]
-ENTRYPOINT ["$JEKYLL_BIN/entrypoint"]
+ENTRYPOINT ["$JEKYLL_BIN/entrypoint.sh"]
 WORKDIR /srv/jekyll
 VOLUME  /srv/jekyll
 EXPOSE 35729
