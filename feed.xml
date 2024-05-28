@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://constelleum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://constelleum.com/" rel="alternate" type="text/html" /><updated>2024-05-27T20:19:19-05:00</updated><id>https://constelleum.com/feed.xml</id><title type="html">Constelleum</title><subtitle>Constelleum is a card-driven tactics game.</subtitle><entry><title type="html">Patch Notes - v0.5.9</title><link href="https://constelleum.com/patches,devlog/2024/04/18/patch-notes-v0.5.9.html" rel="alternate" type="text/html" title="Patch Notes - v0.5.9" /><published>2024-04-18T00:00:00-05:00</published><updated>2024-04-18T00:00:00-05:00</updated><id>https://constelleum.com/patches,devlog/2024/04/18/patch-notes-v0.5.9</id><content type="html" xml:base="https://constelleum.com/patches,devlog/2024/04/18/patch-notes-v0.5.9.html"><![CDATA[<p>This month we put a lot of effort into polishing our keyboard / controller experience and improving our tutorials. With Constelleum feeling more and more complete, we are working hard to better our new player experience so we can broaden our community and get fresh players testing our game! As part of our input updates, we completely revamped the settings menu, making it fully navigable with a controller only. We hope the menus feel snappier and more intuitive than ever, and that our new players have a better experience with the tutorial!</p>
+
+<p>In addition to that, this version comes with many bug fixes and exciting new art. See below for details!</p>
+
+<h2 id="tutorial">Tutorial</h2>
+
+<ul>
+  <li>Added our first visual tutorial for move path creation; more to come if players find this helpful</li>
+  <li>Cleaned up the tutorial text and cut a few popups to make things snappier</li>
+  <li>New navigation to re-show any closed tutorial popups</li>
+  <li>Phase change banners are now delayed until the tutorial popups are closed</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Characters now have shadows on the field</li>
+  <li>Fixed jumps in animation transitions</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>Rework settings menu for full usability without a mouse or keyboard</li>
+  <li>Improved and unified UX for list selections (ex character select, tutorial select, etc.)</li>
+</ul>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>Made the new map Defender a little easier for the team on the offense (Dusk)</li>
+</ul>
+
+<h2 id="bug-fixes">Bug Fixes</h2>
+
+<ul>
+  <li>Fixed delays with Selene’s Swift Exit</li>
+  <li>Fixed re-entry bug where characters were moved off the field (to Kansas)</li>
+  <li>Added a full solution for re-entry when all starting positions are blocked</li>
+  <li>Fixed forced animation for Tophat and Mulberry</li>
+  <li>Fixed crash for new hand toggle setting that attempted to switch to a decks for companions</li>
+</ul>]]></content><author><name></name></author><category term="patches,devlog" /><summary type="html"><![CDATA[This month we put a lot of effort into polishing our keyboard / controller experience and improving our tutorials. With Constelleum feeling more and more complete, we are working hard to better our new player experience so we can broaden our community and get fresh players testing our game! As part of our input updates, we completely revamped the settings menu, making it fully navigable with a controller only. We hope the menus feel snappier and more intuitive than ever, and that our new players have a better experience with the tutorial! In addition to that, this version comes with many bug fixes and exciting new art. See below for details! Tutorial Added our first visual tutorial for move path creation; more to come if players find this helpful Cleaned up the tutorial text and cut a few popups to make things snappier New navigation to re-show any closed tutorial popups Phase change banners are now delayed until the tutorial popups are closed Art Characters now have shadows on the field Fixed jumps in animation transitions UI/UX Rework settings menu for full usability without a mouse or keyboard Improved and unified UX for list selections (ex character select, tutorial select, etc.) Gameplay Made the new map Defender a little easier for the team on the offense (Dusk) Bug Fixes Fixed delays with Selene’s Swift Exit Fixed re-entry bug where characters were moved off the field (to Kansas) Added a full solution for re-entry when all starting positions are blocked Fixed forced animation for Tophat and Mulberry Fixed crash for new hand toggle setting that attempted to switch to a decks for companions]]></summary></entry><entry><title type="html">Patch Notes - v0.5.8</title><link href="https://constelleum.com/patches,devlog/2024/03/21/patch-notes-v0.5.8.html" rel="alternate" type="text/html" title="Patch Notes - v0.5.8" /><published>2024-03-21T00:00:00-05:00</published><updated>2024-03-21T00:00:00-05:00</updated><id>https://constelleum.com/patches,devlog/2024/03/21/patch-notes-v0.5.8</id><content type="html" xml:base="https://constelleum.com/patches,devlog/2024/03/21/patch-notes-v0.5.8.html"><![CDATA[<p>We’re keeping up a good monthly stride with a new slate of features and fixes. As per usual you can jump to the bottom for a more concise bulleted list.</p>
+
+<p>This month we put a lot of effort into improving our map creation workflow. There were certain elements of map making that were tedious in the past so it’s been too burdensome to quickly try out fun new ideas for maps. With our new map editor this is a problem of the past and we are excited to show off some pretty dramatically different map ideas at this month’s play test. We’re also excited to someday put this editor into your hands and see what the community can come up with!</p>
+
+<p>Another major gameplay experiment we are trying out is the Team Refresh. If everyone on the team refreshes in the same round the entire team will get Decisive 99 and Empowered at the end of the round. We’ve got lots of ideas for where to take this system so please let us know what you think!</p>
+
+<p>Sandbox also got a major reworking of its tools inspired by the new map editor so that you can set up just about any experiment you can imagine. This rework will also be a major boon for our ability to more rapidly design challenges which is our next major thrust for the coming month.</p>
+
+<p>There’s so much more good stuff in the bullets below. It’s been a great year so far and we’re looking forward to so much more in Q2 and onward.</p>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>New maps: Defender, Lattice, Refreshing, and Trial by Fire each wildly different than the other</li>
+  <li>A new game mechanic called Team Refresh that gives your entire team a boost when you all refresh in the same round</li>
+  <li>Gimbal is continuing to get refined with a couple card tweaks and Charge now increases by 1 each round</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Antourenein has been killing it as of late with a brand new set of vfx for Selene’s human form animations</li>
+  <li>We’ve got an awesome new WIP map background of the desert world of Tayassu</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>A brand new set of sandbox tools and interface for quickly trying out ideas. Sandbox settings have been removed as they are no longer needed</li>
+  <li>Input remapping got an extensive rework to be cleaner and more intuitive</li>
+  <li>Ghost state is now back to tracking the full turn rather than a single action. This should make it clearer where you are in your card’s action</li>
+  <li>Reworked the interface for controlling multiple characters</li>
+  <li>Made the hand wrest control from the player less so that it feels smoother to interact with</li>
+  <li>Added visibility indicators to the discard pile interface</li>
+</ul>
+
+<h2 id="bug-fixes">Bug Fixes</h2>
+
+<ul>
+  <li>Fixed a soft lock with Selene’s Swift Exit</li>
+  <li>Fixed some linked vfx like Gimbal’s static and Valencia’s Adrenaline flames so that they show independent of each other when 2 of the same character are in a game</li>
+  <li>Fixed the ping audio issue</li>
+  <li>A potential stability improvement to card tooltips hopefully addressing a crash from the last play test</li>
+  <li>A variety of small fixes to improve the handling of cards especially when controlling multiple characters</li>
+  <li>A fix for field tooltips sometimes showing when they shouldn’t</li>
+  <li>A fix for non-keyboard input to be able to trigger expanding/collapsing the hand</li>
+</ul>]]></content><author><name></name></author><category term="patches,devlog" /><summary type="html"><![CDATA[We’re keeping up a good monthly stride with a new slate of features and fixes. As per usual you can jump to the bottom for a more concise bulleted list. This month we put a lot of effort into improving our map creation workflow. There were certain elements of map making that were tedious in the past so it’s been too burdensome to quickly try out fun new ideas for maps. With our new map editor this is a problem of the past and we are excited to show off some pretty dramatically different map ideas at this month’s play test. We’re also excited to someday put this editor into your hands and see what the community can come up with! Another major gameplay experiment we are trying out is the Team Refresh. If everyone on the team refreshes in the same round the entire team will get Decisive 99 and Empowered at the end of the round. We’ve got lots of ideas for where to take this system so please let us know what you think! Sandbox also got a major reworking of its tools inspired by the new map editor so that you can set up just about any experiment you can imagine. This rework will also be a major boon for our ability to more rapidly design challenges which is our next major thrust for the coming month. There’s so much more good stuff in the bullets below. It’s been a great year so far and we’re looking forward to so much more in Q2 and onward. Gameplay New maps: Defender, Lattice, Refreshing, and Trial by Fire each wildly different than the other A new game mechanic called Team Refresh that gives your entire team a boost when you all refresh in the same round Gimbal is continuing to get refined with a couple card tweaks and Charge now increases by 1 each round Art Antourenein has been killing it as of late with a brand new set of vfx for Selene’s human form animations We’ve got an awesome new WIP map background of the desert world of Tayassu UI/UX A brand new set of sandbox tools and interface for quickly trying out ideas. Sandbox settings have been removed as they are no longer needed Input remapping got an extensive rework to be cleaner and more intuitive Ghost state is now back to tracking the full turn rather than a single action. This should make it clearer where you are in your card’s action Reworked the interface for controlling multiple characters Made the hand wrest control from the player less so that it feels smoother to interact with Added visibility indicators to the discard pile interface Bug Fixes Fixed a soft lock with Selene’s Swift Exit Fixed some linked vfx like Gimbal’s static and Valencia’s Adrenaline flames so that they show independent of each other when 2 of the same character are in a game Fixed the ping audio issue A potential stability improvement to card tooltips hopefully addressing a crash from the last play test A variety of small fixes to improve the handling of cards especially when controlling multiple characters A fix for field tooltips sometimes showing when they shouldn’t A fix for non-keyboard input to be able to trigger expanding/collapsing the hand]]></summary></entry><entry><title type="html">Patch Notes - v0.5.7</title><link href="https://constelleum.com/patches,devlog/2024/02/15/patch-notes-v0.5.7.html" rel="alternate" type="text/html" title="Patch Notes - v0.5.7" /><published>2024-02-15T00:00:00-06:00</published><updated>2024-02-15T00:00:00-06:00</updated><id>https://constelleum.com/patches,devlog/2024/02/15/patch-notes-v0.5.7</id><content type="html" xml:base="https://constelleum.com/patches,devlog/2024/02/15/patch-notes-v0.5.7.html"><![CDATA[<p>We have a lot of exciting updates this month! Read the following paragraphs for details or jump to the bottom for a short bullet list summary.</p>
+
+<p>In this patch, the animation queue got a lot of love! Now all movement and forced movement types have their own animations! Several characters have special Drag animations now, and Sayyora even has a Jumping animation. This also comes with improvements to the directions that pawns face. Everything is looking smooth and even more readable.</p>
+
+<p>Speaking of animations, all of the pawns are now using our new animation and vfx system, and the game now has dynamic timing tweaks to normalize animation durations as well! We may need more tinkering to dial in timings, but already our longer animations are feeling more snappy.</p>
+
+<p>In other art news, we have several new map backgrounds in the works that better fit the game’s aesthetic and are focused on the World Beasts of Constelleum’s lore. We are showcasing some new background concept art in this update as a teaser and to hear your thoughts.</p>
+
+<p>We got a lot of great user feedback last month, and on top of bug fixes and some quality of life tweaks, we improved the UI for deck select. These updates will make it clear when you are waiting for other players to select decks and make the tutorial more intuitive.</p>
+
+<p>And lastly, we have a few big gameplay changes in this update. First, Gimbal got some big improvements – check out the refinements to existing cards along with three new ones in deck builder! We hope you enjoy the new and improved Charge status and find creative ways to use it’s Refresh and max value mechanics. Second, cards in your hand will now have a vision indicator showing whether or not other players are able to see them. Played cards have always been revealed to other players, but now each character has their own unique hand slots that start visible. We think this will add a new layer of strategy and intrigue to deck building while also giving new players a bit more info on what cards to expect in the game.</p>
+
+<p>Wishing you a happy Valentines Day from the Constelleum team!</p>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>Gimbal updates: 3 new cards, Charge status now increases when Refreshing and has new effects when at max value, existing cards reworked to better utilize multi choice functionality</li>
+  <li>Some cards now start visible to opponents based on position in hand (even before being played)</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Selene got most of her new vfx</li>
+  <li>Tophat and Mulberry got their new animations concluding our migration to the new animation system</li>
+  <li>New map background concept art</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>You can now invite friends to your lobby or join friends’ active lobbies via Steam</li>
+  <li>Major animation queue rework: all movement/forced movement types are distinct</li>
+  <li>Improve when and how pawns change which direction they face, particularly in interactions with forced movement, AOEs, and ranged targeting</li>
+  <li>Deck select now better signals when you have completed selecting vs when action is required</li>
+  <li>Minor tutorial visual and layout improvements</li>
+  <li>Added character names to tooltips when hovering characters on the field</li>
+  <li>Added secondary confirmation step to abandoning a game or restarting a challenge</li>
+</ul>
+
+<h2 id="backend">Backend</h2>
+
+<ul>
+  <li>Game engine and Steam library upgrades to the latest and greatest</li>
+  <li>Background work on our tutorial management system, new visuals and experience for these coming soon!</li>
+  <li>If someone abandons a game, the server now defaults their selections without waiting for them to timeout</li>
+</ul>
+
+<h2 id="bug-fixes">Bug fixes</h2>
+
+<ul>
+  <li>Submitted card now always shows up correctly in the hand</li>
+  <li>Re-added missing action information in tooltips</li>
+  <li>Characters now correctly disabled once picked during Character Select</li>
+  <li>Fixed a bug where typing Disrupt in a search bar returned all cards</li>
+  <li>Improved notification upon entering a wrong password when joining a protected lobby</li>
+  <li>Made focus-based tooltips a little less intrusive in Deck Builder</li>
+</ul>]]></content><author><name></name></author><category term="patches,devlog" /><summary type="html"><![CDATA[We have a lot of exciting updates this month! Read the following paragraphs for details or jump to the bottom for a short bullet list summary. In this patch, the animation queue got a lot of love! Now all movement and forced movement types have their own animations! Several characters have special Drag animations now, and Sayyora even has a Jumping animation. This also comes with improvements to the directions that pawns face. Everything is looking smooth and even more readable. Speaking of animations, all of the pawns are now using our new animation and vfx system, and the game now has dynamic timing tweaks to normalize animation durations as well! We may need more tinkering to dial in timings, but already our longer animations are feeling more snappy. In other art news, we have several new map backgrounds in the works that better fit the game’s aesthetic and are focused on the World Beasts of Constelleum’s lore. We are showcasing some new background concept art in this update as a teaser and to hear your thoughts. We got a lot of great user feedback last month, and on top of bug fixes and some quality of life tweaks, we improved the UI for deck select. These updates will make it clear when you are waiting for other players to select decks and make the tutorial more intuitive. And lastly, we have a few big gameplay changes in this update. First, Gimbal got some big improvements – check out the refinements to existing cards along with three new ones in deck builder! We hope you enjoy the new and improved Charge status and find creative ways to use it’s Refresh and max value mechanics. Second, cards in your hand will now have a vision indicator showing whether or not other players are able to see them. Played cards have always been revealed to other players, but now each character has their own unique hand slots that start visible. We think this will add a new layer of strategy and intrigue to deck building while also giving new players a bit more info on what cards to expect in the game. Wishing you a happy Valentines Day from the Constelleum team! Gameplay Gimbal updates: 3 new cards, Charge status now increases when Refreshing and has new effects when at max value, existing cards reworked to better utilize multi choice functionality Some cards now start visible to opponents based on position in hand (even before being played) Art Selene got most of her new vfx Tophat and Mulberry got their new animations concluding our migration to the new animation system New map background concept art UI/UX You can now invite friends to your lobby or join friends’ active lobbies via Steam Major animation queue rework: all movement/forced movement types are distinct Improve when and how pawns change which direction they face, particularly in interactions with forced movement, AOEs, and ranged targeting Deck select now better signals when you have completed selecting vs when action is required Minor tutorial visual and layout improvements Added character names to tooltips when hovering characters on the field Added secondary confirmation step to abandoning a game or restarting a challenge Backend Game engine and Steam library upgrades to the latest and greatest Background work on our tutorial management system, new visuals and experience for these coming soon! If someone abandons a game, the server now defaults their selections without waiting for them to timeout Bug fixes Submitted card now always shows up correctly in the hand Re-added missing action information in tooltips Characters now correctly disabled once picked during Character Select Fixed a bug where typing Disrupt in a search bar returned all cards Improved notification upon entering a wrong password when joining a protected lobby Made focus-based tooltips a little less intrusive in Deck Builder]]></summary></entry><entry><title type="html">Patch Notes - v0.5.6</title><link href="https://constelleum.com/patches,devlog/2024/01/18/patch-notes-v0.5.6.html" rel="alternate" type="text/html" title="Patch Notes - v0.5.6" /><published>2024-01-18T00:00:00-06:00</published><updated>2024-01-18T00:00:00-06:00</updated><id>https://constelleum.com/patches,devlog/2024/01/18/patch-notes-v0.5.6</id><content type="html" xml:base="https://constelleum.com/patches,devlog/2024/01/18/patch-notes-v0.5.6.html"><![CDATA[<p>Hey folks we’ve got an update chocked full of goodies for you this week. You can read more about the high-level big new features below or skip to the bulleted lists below.</p>
+
+<p>Meet Sayyora, the newest addition to the Constelleum cast! She is a traveling prosthetist who gains a “Rambling” resource with each space she moves on the field. This resource counter affects when and how she can collect orbs and score, and also enhances several of her cards. She was inspired by the Rambler prototype character, but she is fully unique with reworked mechanics and full art/vfx. She is still movement focused with exceptional positioning options, but her “Rambling” status resource management is now much more interactive and will remain an important consideration throughout the entire game instead of just the first and last round. Her cards also have some creative new uses of old mechanics, so expect novel gameplay beyond her Rambling status! We hope you have fun with this new character. To learn more, check out Sayyora in the Deck Builder and Sandbox.</p>
+
+<p>A ton of work this patch went into making the game fully playable via focus. All while trying to make sure that as little functionality as possible was lost when not using a mouse. This means that everything can be traversed and activated with a keyboard. There were some interesting technical challenges with getting the UI to play nicely with the hexagons and to making sure tooltips worked whether you hover something or focus it.</p>
+
+<p>This work will go a long way towards our goals of being playable with almost any input scheme imaginable which has already born fruit because Constelleum now also supports controllers! This does come with a caveat as Steam’s built in input system collides with the one we use in our game. For the time being if you want to use a controller you need to go to Steam -&gt; Settings -&gt; Controller and disable the feature for your controller type. We are already investigating solutions for this and will come up with a full fix in the future.</p>
+
+<p>Lastly we added some automated data recording so that we can more easily analyze the numbers behind the gameplay and move towards fine tuning the game. This may not sound big, but being able to have easily accessible information about how much disrupt characters are doing or when people are running out of time will all be incredibly valuable for future work.</p>
+
+<p>And that’s all the “big” stuff this patch, but there’s more great stuff below too! Please report any bugs you find with these new features so that we can continue to iterate on them and make them as good as they can be.</p>
+
+<p>Wishing you a happy new year from the Constelleum team!</p>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>Rambler added to the game now known as Sayyora with brand new cards, reworked old cards, and fully implemented character art with animations and vfx</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Awali got his updated animations with a whole bunch of cool vfx</li>
+  <li>Selene has her new base animations, vfx still to come</li>
+  <li>Gnamma has her new base animations, vfx still to come</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>The game is now playable with just keyboard through a suite of focus improvements</li>
+  <li>Constelleum now supports controllers. See the above paragraphs for a note about a known issue with Steam Input</li>
+  <li>The round history display now behaves more like a popup that closes like normal popups</li>
+</ul>
+
+<h2 id="backend">Backend</h2>
+
+<ul>
+  <li>Added some automated data collection from matches</li>
+  <li>We worked on the reconnect functionality to hopefully improve the ease of reconnecting</li>
+</ul>]]></content><author><name></name></author><category term="patches,devlog" /><summary type="html"><![CDATA[Hey folks we’ve got an update chocked full of goodies for you this week. You can read more about the high-level big new features below or skip to the bulleted lists below. Meet Sayyora, the newest addition to the Constelleum cast! She is a traveling prosthetist who gains a “Rambling” resource with each space she moves on the field. This resource counter affects when and how she can collect orbs and score, and also enhances several of her cards. She was inspired by the Rambler prototype character, but she is fully unique with reworked mechanics and full art/vfx. She is still movement focused with exceptional positioning options, but her “Rambling” status resource management is now much more interactive and will remain an important consideration throughout the entire game instead of just the first and last round. Her cards also have some creative new uses of old mechanics, so expect novel gameplay beyond her Rambling status! We hope you have fun with this new character. To learn more, check out Sayyora in the Deck Builder and Sandbox. A ton of work this patch went into making the game fully playable via focus. All while trying to make sure that as little functionality as possible was lost when not using a mouse. This means that everything can be traversed and activated with a keyboard. There were some interesting technical challenges with getting the UI to play nicely with the hexagons and to making sure tooltips worked whether you hover something or focus it. This work will go a long way towards our goals of being playable with almost any input scheme imaginable which has already born fruit because Constelleum now also supports controllers! This does come with a caveat as Steam’s built in input system collides with the one we use in our game. For the time being if you want to use a controller you need to go to Steam -&gt; Settings -&gt; Controller and disable the feature for your controller type. We are already investigating solutions for this and will come up with a full fix in the future. Lastly we added some automated data recording so that we can more easily analyze the numbers behind the gameplay and move towards fine tuning the game. This may not sound big, but being able to have easily accessible information about how much disrupt characters are doing or when people are running out of time will all be incredibly valuable for future work. And that’s all the “big” stuff this patch, but there’s more great stuff below too! Please report any bugs you find with these new features so that we can continue to iterate on them and make them as good as they can be. Wishing you a happy new year from the Constelleum team! Gameplay Rambler added to the game now known as Sayyora with brand new cards, reworked old cards, and fully implemented character art with animations and vfx Art Awali got his updated animations with a whole bunch of cool vfx Selene has her new base animations, vfx still to come Gnamma has her new base animations, vfx still to come UI/UX The game is now playable with just keyboard through a suite of focus improvements Constelleum now supports controllers. See the above paragraphs for a note about a known issue with Steam Input The round history display now behaves more like a popup that closes like normal popups Backend Added some automated data collection from matches We worked on the reconnect functionality to hopefully improve the ease of reconnecting]]></summary></entry><entry><title type="html">Developer Log 8</title><link href="https://constelleum.com/devlog/2021/05/31/developer-log-8.html" rel="alternate" type="text/html" title="Developer Log 8" /><published>2021-05-31T00:00:00-05:00</published><updated>2021-05-31T00:00:00-05:00</updated><id>https://constelleum.com/devlog/2021/05/31/developer-log-8</id><content type="html" xml:base="https://constelleum.com/devlog/2021/05/31/developer-log-8.html"><![CDATA[<h3 id="cleaning-up-the-lobby---mitch">Cleaning up the Lobby - Mitch</h3>
+
+<p>This week I’m reporting in for Alex who has been hard at work on our new lobby system. This new system is going to provide a number of great benefits for our development pipeline as well as the future player base.</p>
+
+<p>As a small development team we rarely have enough players for a full match of Constelleum. Because of this we often need to play with unconventional game configurations like two versus one. In order to do this we needed to restart the server with new parameters which just slowed things down. More recently we’ve been using this very simple lobby system depicted below.</p>
+
+<p><img src="/assets/images/2021-05-24-developer-log-8/Screenshot_32.png" alt="Old UI for queueing and creating lobbies." /></p>
+
+<!--end_excerpt-->
+
+<p>This worked well enough for our last playtest, but is too feature light for our future needs. While Constelleum will largely be focused around its main gameplay mode, allowing players to create lobbies to fit their more specific needs has always been a part of our long-term goal. Enter the new lobby system.</p>
+
+<p><img src="/assets/images/2021-05-24-developer-log-8/unknown.png" alt="New Lobby UI." /></p>
+
+<p>Ooooo Ahhhhh.</p>
+
+<p>As per usual this is a work in progress, but it’s a big step forward in having a lobby system that is more flexible and comparable to what you’d find in other games. With things like timer length, team count, and players per team users will be able to set up games for the number of players they have and play at the pace that they want. And for us developers it means less messing with the server and more time testing. A win for everybody!</p>]]></content><author><name></name></author><category term="devlog" /><summary type="html"><![CDATA[Cleaning up the Lobby - Mitch This week I’m reporting in for Alex who has been hard at work on our new lobby system. This new system is going to provide a number of great benefits for our development pipeline as well as the future player base. As a small development team we rarely have enough players for a full match of Constelleum. Because of this we often need to play with unconventional game configurations like two versus one. In order to do this we needed to restart the server with new parameters which just slowed things down. More recently we’ve been using this very simple lobby system depicted below.]]></summary></entry><entry><title type="html">Developer Log 7</title><link href="https://constelleum.com/devlog/2021/05/17/developer-log-7.html" rel="alternate" type="text/html" title="Developer Log 7" /><published>2021-05-17T00:00:00-05:00</published><updated>2021-05-17T00:00:00-05:00</updated><id>https://constelleum.com/devlog/2021/05/17/developer-log-7</id><content type="html" xml:base="https://constelleum.com/devlog/2021/05/17/developer-log-7.html"><![CDATA[<h3 id="still-here---mitch">Still Here - Mitch</h3>
+
+<p>It has been a loooong time since we posted our original dev blog articles as an experiment about a year ago. At the time we were still fledgling and figuring out where we wanted to take Constelleum. And the good news is that our lack of posts was because we had our heads down working hard to bring our game to life. Now that we are getting close to an alpha state it feels like a good time to start sharing what we’ve been up to.</p>
+
+<p><img src="/assets/images/2021-05-17-developer-log-7/new_promo_tease.png" alt="Three character silhouettes on hexagons against a starry background." /></p>
+
+<!--end_excerpt-->
+
+<p>The image and character silhouettes are part of our new promotional art that we will be revealing when the time is right. In the meantime you can check out our first 3 fully designed characters and learn more about them on their character pages. I hope you love them as much as we do!</p>
+
+<p>And that’s it for this dev blog! I know, I know, I’m such a tease. There will be a lot more information in the near future, we just couldn’t wait to share any longer. Catch you in the next one.</p>]]></content><author><name></name></author><category term="devlog" /><summary type="html"><![CDATA[Still Here - Mitch It has been a loooong time since we posted our original dev blog articles as an experiment about a year ago. At the time we were still fledgling and figuring out where we wanted to take Constelleum. And the good news is that our lack of posts was because we had our heads down working hard to bring our game to life. Now that we are getting close to an alpha state it feels like a good time to start sharing what we’ve been up to.]]></summary></entry><entry><title type="html">Gnamma</title><link href="https://constelleum.com/characters/2021/03/26/gnamma.html" rel="alternate" type="text/html" title="Gnamma" /><published>2021-03-26T00:00:00-05:00</published><updated>2021-03-26T00:00:00-05:00</updated><id>https://constelleum.com/characters/2021/03/26/gnamma</id><content type="html" xml:base="https://constelleum.com/characters/2021/03/26/gnamma.html"><![CDATA[<div class="cf w-100">
+<div class="fl w-100 w-50-ns pa4">
+
+    <table style="border-collapse: collapse;">
+	<tr>
+		<td>Name: Gnamma</td>
+		<td>Pronouns: She/Her</td>
+	</tr>
+	<tr>
+		<td>Age: 68</td>
+		<td>Homeworld: Tayassu</td>
+	</tr>
+</table>
+    <p>Gnamma channels her deep connection to nature to work with her companion warthogs, Mulberry and Top Hat. Together they are a formidable force.</p>
+
+    <table style="border-collapse: collapse;">
+	<tr>
+		<td>Occupation(s):</td>
+		<td>Conservationist</td>
+	</tr>
+	<tr>
+		<td>Likes:</td>
+		<td>Nature conservancy, hiking, and playing fetch with Mulberry and Top Hat.</td>
+	</tr>
+	<tr>
+		<td>Dislikes:</td>
+		<td>Poachers and opportunists.</td>
+	</tr>
+	<tr>
+		<td>Quote:</td>
+		<td>"Friends, family, mother and children, whatever you want to call those that have felt each other's love and pain."</td>
+	</tr>
+</table>
+
+  </div>
+<div class="fl w-100 w-50-ns pa4">
+
+    <p><img src="/assets/images/user/characters/gnamma.png" alt="Gnamma with her companion warthogs Mulberry and Top Hat." /></p>
+
+  </div>
+</div>]]></content><author><name></name></author><category term="characters" /><summary type="html"><![CDATA[Name: Gnamma Pronouns: She/Her Age: 68 Homeworld: Tayassu Gnamma channels her deep connection to nature to work with her companion warthogs, Mulberry and Top Hat. Together they are a formidable force. Occupation(s): Conservationist Likes: Nature conservancy, hiking, and playing fetch with Mulberry and Top Hat. Dislikes: Poachers and opportunists. Quote: "Friends, family, mother and children, whatever you want to call those that have felt each other's love and pain."]]></summary></entry><entry><title type="html">Laminar</title><link href="https://constelleum.com/characters/2021/03/26/laminar.html" rel="alternate" type="text/html" title="Laminar" /><published>2021-03-26T00:00:00-05:00</published><updated>2021-03-26T00:00:00-05:00</updated><id>https://constelleum.com/characters/2021/03/26/laminar</id><content type="html" xml:base="https://constelleum.com/characters/2021/03/26/laminar.html"><![CDATA[<div class="cf w-100">
+<div class="fl w-100 w-50-ns pa4">
+
+    <p><img src="/assets/images/user/characters/laminar.png" alt="Laminar" /></p>
+
+  </div>
+<div class="fl w-100 w-50-ns pa4">
+
+    <table style="border-collapse: collapse;">
+	<tr>
+		<td>Name: Laminar</td>
+		<td>Pronouns: He/Him</td>
+	</tr>
+	<tr>
+		<td>Age: 31</td>
+		<td>Homeworld: Kinaara</td>
+	</tr>
+</table>
+    <p>Laminar feels unseen currents allowing him to flow like water itself; enhancing both his body and mind.</p>
+
+    <table style="border-collapse: collapse;">
+	<tr>
+		<td>Occupation(s):</td>
+		<td>Fisherman, Ferryman</td>
+	</tr>
+	<tr>
+		<td>Likes:</td>
+		<td>Fishing, celebrating, and navigating the oceans of Kinaara.</td>
+	</tr>
+	<tr>
+		<td>Dislikes:</td>
+		<td>Tourism.</td>
+	</tr>
+	<tr>
+		<td>Quote:</td>
+		<td>"Helping the dead reach the stars is worthy of celebration, no?"</td>
+	</tr>
+</table>
+
+  </div>
+</div>]]></content><author><name></name></author><category term="characters" /><summary type="html"><![CDATA[Name: Laminar Pronouns: He/Him Age: 31 Homeworld: Kinaara Laminar feels unseen currents allowing him to flow like water itself; enhancing both his body and mind. Occupation(s): Fisherman, Ferryman Likes: Fishing, celebrating, and navigating the oceans of Kinaara. Dislikes: Tourism. Quote: "Helping the dead reach the stars is worthy of celebration, no?"]]></summary></entry><entry><title type="html">Valencia</title><link href="https://constelleum.com/characters/2021/03/26/valencia.html" rel="alternate" type="text/html" title="Valencia" /><published>2021-03-26T00:00:00-05:00</published><updated>2021-03-26T00:00:00-05:00</updated><id>https://constelleum.com/characters/2021/03/26/valencia</id><content type="html" xml:base="https://constelleum.com/characters/2021/03/26/valencia.html"><![CDATA[<div class="cf w-100">
+<div class="fl w-100 w-50-ns pa4">
+
+    <table style="border-collapse: collapse;">
+	<tr>
+		<td>Name: Valencia</td>
+		<td>Pronouns: She/Her</td>
+	</tr>
+	<tr>
+		<td>Age: 27</td>
+		<td>Homeworld: Kinaara</td>
+	</tr>
+</table>
+    <p>Valencia loves the rush of adrenaline and seeks it out wherever she can. In sport she uses it to fuel herself to new heights.</p>
+
+    <table style="border-collapse: collapse;">
+	<tr>
+		<td>Occupation(s):</td>
+		<td>Ex-soldier, Help for hire</td>
+	</tr>
+	<tr>
+		<td>Likes:</td>
+		<td>Base jumping and a good horror story.</td>
+	</tr>
+	<tr>
+		<td>Dislikes: </td>
+		<td>Meditation and feelings.</td>
+	</tr>
+	<tr>
+		<td>Quote:</td>
+		<td>"I get to go all out against some of the greatest people alive? When do we start?"</td>
+	</tr>
+</table>
+
+  </div>
+<div class="fl w-100 w-50-ns pa4">
+
+    <p><img src="/assets/images/user/characters/valencia.png" alt="Valencia" /></p>
+
+  </div>
+</div>]]></content><author><name></name></author><category term="characters" /><summary type="html"><![CDATA[Name: Valencia Pronouns: She/Her Age: 27 Homeworld: Kinaara Valencia loves the rush of adrenaline and seeks it out wherever she can. In sport she uses it to fuel herself to new heights. Occupation(s): Ex-soldier, Help for hire Likes: Base jumping and a good horror story. Dislikes: Meditation and feelings. Quote: "I get to go all out against some of the greatest people alive? When do we start?"]]></summary></entry><entry><title type="html">Developer Log 6</title><link href="https://constelleum.com/devlog/2020/05/28/developer-log-6.html" rel="alternate" type="text/html" title="Developer Log 6" /><published>2020-05-28T00:00:00-05:00</published><updated>2020-05-28T00:00:00-05:00</updated><id>https://constelleum.com/devlog/2020/05/28/developer-log-6</id><content type="html" xml:base="https://constelleum.com/devlog/2020/05/28/developer-log-6.html"><![CDATA[<h3 id="sandbox---matt">Sandbox - Matt</h3>
+
+<p>This week I implemented a Sandbox mode in our game client. This allows us (and any player) to run the game locally and test cards and mechanics against dummy players. To accompany this, I also made a new map with clusters of obstacles. Here’s how it looks:</p>
+
+<p><img src="/assets/images/2020-05-28-developer-log-6/sandbox.png" alt="Map with circles of cracks, vines, and walls" /></p>
+
+<!--end_excerpt-->
+
+<p>This project was particularly valuable to us because it makes testing significantly easier. Before this, to test any card, we had to: change the card data on the server, run it, start two instances of Godot for the client, run them both, connect to the server, go through character and position draft, then finally test the card all while managing 9 godot windows (one editor, one console, and one game window per each client and server). Now we can change the card data in the client, start the client and go to sandbox, pick a character and position, and then test the cards. This significantly reduces the time and complexity of testing new features.</p>
+
+<p>Implementing this first pass of sandbox mode was thankfully pretty simple. In our game, the server has been and will always be the final authority on current game state. For security (and fair rankings), we are operating under the assumption that once the client binary leaves our machines, we no longer trust it. Because of this, the server always validates all user inputs and fully tracks the game state. However, any unmodified client will also validate all inputs and track game state in order to only allow players to make valid selections. With all this in mind, we arrived at an api that (after connecting and character/position drafts are done) looks like this:</p>
+
+<ul>
+  <li>Clients send card choices to the server.</li>
+  <li>The server accepts or rejects until all characters have selected a valid card.</li>
+  <li>The server sends the first card (in initiative order) to all clients.</li>
+  <li>The player who chose this card makes selections for all actions on the card.</li>
+  <li>The server accepts or rejects the selections, and once accepted sends the selections to all clients.</li>
+  <li>Clients show animations for the selections and update their game state.</li>
+  <li>The server sends the next card and repeats the previous steps until all cards for this round are handled.</li>
+  <li>Go back to card select, repeat until the game is over.</li>
+</ul>
+
+<p>The sandbox mode implementation is a substitute for the code in the client that handles communications with the server. This required a little refactoring, but now the boundary between the game management and the networking code is extremely clear and well defined. In sandbox mode, instead of sending selections to the server, selections are immediately accepted with no additional validation. When the player chooses a card, it is put first in initiative order and sent back. When the player submits selections for the card, the selections are accepted, then the dummy characters both mend their shields to full, and lastly the client is sent back to the card selection phase.</p>
+
+<p>This sandbox mode is a precursor to our future tutorial implementation as well as a player-vs-environment (ie play against the computer) mode. As the current version of our game progresses, it is really starting to look like our vision for the finished product!</p>]]></content><author><name></name></author><category term="devlog" /><summary type="html"><![CDATA[Sandbox - Matt This week I implemented a Sandbox mode in our game client. This allows us (and any player) to run the game locally and test cards and mechanics against dummy players. To accompany this, I also made a new map with clusters of obstacles. Here’s how it looks:]]></summary></entry></feed>

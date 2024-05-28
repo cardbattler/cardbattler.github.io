@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Development | Constelleum</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Development" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Constelleum is a card-driven tactics game." />
+<meta property="og:description" content="Constelleum is a card-driven tactics game." />
+<link rel="canonical" href="https://constelleum.com/devlog/" />
+<meta property="og:url" content="https://constelleum.com/devlog/" />
+<meta property="og:site_name" content="Constelleum" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Development" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Constelleum is a card-driven tactics game.","headline":"Development","url":"https://constelleum.com/devlog/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://constelleum.com/feed.xml" title="Constelleum" />
+</head>
+<body><header class="w-100" role="banner">
+  <div class="mw7 center h5 logo">
+    <a class="w-100 h-100 dib" href="/">
+    </a>
+  </div>
+</header>
+<main class="page-content fade-in relative" aria-label="Content"><div class="tc mw5 center relative-l relative-m absolute top--2 right-0 left-0"><a class="page-link lh-title f3 ferrum" href="/about/">&bull; About &bull;</a><br><a class="page-link lh-title f3 ferrum" href="/characters/">&bull; Characters &bull;</a><br><a class="page-link lh-title f3 ferrum" href="/contact/">&bull; Contact Us &bull;</a><br><a class="page-link lh-title f3 ferrum" href="/devlog/">&bull; Development &bull;</a><br><a class="page-link lh-title f3 ferrum" href="/privacy/">&bull; Privacy Policy &bull;</a><br><a class="page-link lh-title f3 ferrum" href="/terms-of-use/">&bull; Terms of Use &bull;</a><br></div>
+<div class="w-100">
+  <div class="mw7 bg-black white mv6 mv0-ns pa2 br4 center avenir content-wash">
+    <h1 class="page-heading tc f1">Developer Log</h1>
+
+    <div class="tc light-blue"> <p>Stay up-to-date as we improve Constelleum, document our process, and generally post about the stuff that we enjoy! We’d love to have you follow along, so make sure to subscribe to the RSS feed or get on our mailing list!</p>
+ </div><ul class="post-list">
+          <li><span class="post-meta">April 18, 2024</span>
+            <h3>
+              <a class="post-link" href="/patches,devlog/2024/04/18/patch-notes-v0.5.9.html">
+                Patch Notes - v0.5.9
+              </a>
+            </h3><p>This month we put a lot of effort into polishing our keyboard / controller experience and improving our tutorials. With Constelleum feeling more and more complete, we are working hard to better our new player experience so we can broaden our community and get fresh players testing our game! As part of our input updates, we completely revamped the settings menu, making it fully navigable with a controller only. We hope the menus feel snappier and more intuitive than ever, and that our new players have a better experience with the tutorial!</p>
+
+<p>In addition to that, this version comes with many bug fixes and exciting new art. See below for details!</p>
+
+<h2 id="tutorial">Tutorial</h2>
+
+<ul>
+  <li>Added our first visual tutorial for move path creation; more to come if players find this helpful</li>
+  <li>Cleaned up the tutorial text and cut a few popups to make things snappier</li>
+  <li>New navigation to re-show any closed tutorial popups</li>
+  <li>Phase change banners are now delayed until the tutorial popups are closed</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Characters now have shadows on the field</li>
+  <li>Fixed jumps in animation transitions</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>Rework settings menu for full usability without a mouse or keyboard</li>
+  <li>Improved and unified UX for list selections (ex character select, tutorial select, etc.)</li>
+</ul>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>Made the new map Defender a little easier for the team on the offense (Dusk)</li>
+</ul>
+
+<h2 id="bug-fixes">Bug Fixes</h2>
+
+<ul>
+  <li>Fixed delays with Selene’s Swift Exit</li>
+  <li>Fixed re-entry bug where characters were moved off the field (to Kansas)</li>
+  <li>Added a full solution for re-entry when all starting positions are blocked</li>
+  <li>Fixed forced animation for Tophat and Mulberry</li>
+  <li>Fixed crash for new hand toggle setting that attempted to switch to a decks for companions</li>
+</ul>
+<a href="/patches,devlog/2024/04/18/patch-notes-v0.5.9.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">March 21, 2024</span>
+            <h3>
+              <a class="post-link" href="/patches,devlog/2024/03/21/patch-notes-v0.5.8.html">
+                Patch Notes - v0.5.8
+              </a>
+            </h3><p>We’re keeping up a good monthly stride with a new slate of features and fixes. As per usual you can jump to the bottom for a more concise bulleted list.</p>
+
+<p>This month we put a lot of effort into improving our map creation workflow. There were certain elements of map making that were tedious in the past so it’s been too burdensome to quickly try out fun new ideas for maps. With our new map editor this is a problem of the past and we are excited to show off some pretty dramatically different map ideas at this month’s play test. We’re also excited to someday put this editor into your hands and see what the community can come up with!</p>
+
+<p>Another major gameplay experiment we are trying out is the Team Refresh. If everyone on the team refreshes in the same round the entire team will get Decisive 99 and Empowered at the end of the round. We’ve got lots of ideas for where to take this system so please let us know what you think!</p>
+
+<p>Sandbox also got a major reworking of its tools inspired by the new map editor so that you can set up just about any experiment you can imagine. This rework will also be a major boon for our ability to more rapidly design challenges which is our next major thrust for the coming month.</p>
+
+<p>There’s so much more good stuff in the bullets below. It’s been a great year so far and we’re looking forward to so much more in Q2 and onward.</p>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>New maps: Defender, Lattice, Refreshing, and Trial by Fire each wildly different than the other</li>
+  <li>A new game mechanic called Team Refresh that gives your entire team a boost when you all refresh in the same round</li>
+  <li>Gimbal is continuing to get refined with a couple card tweaks and Charge now increases by 1 each round</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Antourenein has been killing it as of late with a brand new set of vfx for Selene’s human form animations</li>
+  <li>We’ve got an awesome new WIP map background of the desert world of Tayassu</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>A brand new set of sandbox tools and interface for quickly trying out ideas. Sandbox settings have been removed as they are no longer needed</li>
+  <li>Input remapping got an extensive rework to be cleaner and more intuitive</li>
+  <li>Ghost state is now back to tracking the full turn rather than a single action. This should make it clearer where you are in your card’s action</li>
+  <li>Reworked the interface for controlling multiple characters</li>
+  <li>Made the hand wrest control from the player less so that it feels smoother to interact with</li>
+  <li>Added visibility indicators to the discard pile interface</li>
+</ul>
+
+<h2 id="bug-fixes">Bug Fixes</h2>
+
+<ul>
+  <li>Fixed a soft lock with Selene’s Swift Exit</li>
+  <li>Fixed some linked vfx like Gimbal’s static and Valencia’s Adrenaline flames so that they show independent of each other when 2 of the same character are in a game</li>
+  <li>Fixed the ping audio issue</li>
+  <li>A potential stability improvement to card tooltips hopefully addressing a crash from the last play test</li>
+  <li>A variety of small fixes to improve the handling of cards especially when controlling multiple characters</li>
+  <li>A fix for field tooltips sometimes showing when they shouldn’t</li>
+  <li>A fix for non-keyboard input to be able to trigger expanding/collapsing the hand</li>
+</ul>
+<a href="/patches,devlog/2024/03/21/patch-notes-v0.5.8.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">February 15, 2024</span>
+            <h3>
+              <a class="post-link" href="/patches,devlog/2024/02/15/patch-notes-v0.5.7.html">
+                Patch Notes - v0.5.7
+              </a>
+            </h3><p>We have a lot of exciting updates this month! Read the following paragraphs for details or jump to the bottom for a short bullet list summary.</p>
+
+<p>In this patch, the animation queue got a lot of love! Now all movement and forced movement types have their own animations! Several characters have special Drag animations now, and Sayyora even has a Jumping animation. This also comes with improvements to the directions that pawns face. Everything is looking smooth and even more readable.</p>
+
+<p>Speaking of animations, all of the pawns are now using our new animation and vfx system, and the game now has dynamic timing tweaks to normalize animation durations as well! We may need more tinkering to dial in timings, but already our longer animations are feeling more snappy.</p>
+
+<p>In other art news, we have several new map backgrounds in the works that better fit the game’s aesthetic and are focused on the World Beasts of Constelleum’s lore. We are showcasing some new background concept art in this update as a teaser and to hear your thoughts.</p>
+
+<p>We got a lot of great user feedback last month, and on top of bug fixes and some quality of life tweaks, we improved the UI for deck select. These updates will make it clear when you are waiting for other players to select decks and make the tutorial more intuitive.</p>
+
+<p>And lastly, we have a few big gameplay changes in this update. First, Gimbal got some big improvements – check out the refinements to existing cards along with three new ones in deck builder! We hope you enjoy the new and improved Charge status and find creative ways to use it’s Refresh and max value mechanics. Second, cards in your hand will now have a vision indicator showing whether or not other players are able to see them. Played cards have always been revealed to other players, but now each character has their own unique hand slots that start visible. We think this will add a new layer of strategy and intrigue to deck building while also giving new players a bit more info on what cards to expect in the game.</p>
+
+<p>Wishing you a happy Valentines Day from the Constelleum team!</p>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>Gimbal updates: 3 new cards, Charge status now increases when Refreshing and has new effects when at max value, existing cards reworked to better utilize multi choice functionality</li>
+  <li>Some cards now start visible to opponents based on position in hand (even before being played)</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Selene got most of her new vfx</li>
+  <li>Tophat and Mulberry got their new animations concluding our migration to the new animation system</li>
+  <li>New map background concept art</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>You can now invite friends to your lobby or join friends’ active lobbies via Steam</li>
+  <li>Major animation queue rework: all movement/forced movement types are distinct</li>
+  <li>Improve when and how pawns change which direction they face, particularly in interactions with forced movement, AOEs, and ranged targeting</li>
+  <li>Deck select now better signals when you have completed selecting vs when action is required</li>
+  <li>Minor tutorial visual and layout improvements</li>
+  <li>Added character names to tooltips when hovering characters on the field</li>
+  <li>Added secondary confirmation step to abandoning a game or restarting a challenge</li>
+</ul>
+
+<h2 id="backend">Backend</h2>
+
+<ul>
+  <li>Game engine and Steam library upgrades to the latest and greatest</li>
+  <li>Background work on our tutorial management system, new visuals and experience for these coming soon!</li>
+  <li>If someone abandons a game, the server now defaults their selections without waiting for them to timeout</li>
+</ul>
+
+<h2 id="bug-fixes">Bug fixes</h2>
+
+<ul>
+  <li>Submitted card now always shows up correctly in the hand</li>
+  <li>Re-added missing action information in tooltips</li>
+  <li>Characters now correctly disabled once picked during Character Select</li>
+  <li>Fixed a bug where typing Disrupt in a search bar returned all cards</li>
+  <li>Improved notification upon entering a wrong password when joining a protected lobby</li>
+  <li>Made focus-based tooltips a little less intrusive in Deck Builder</li>
+</ul>
+<a href="/patches,devlog/2024/02/15/patch-notes-v0.5.7.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">January 18, 2024</span>
+            <h3>
+              <a class="post-link" href="/patches,devlog/2024/01/18/patch-notes-v0.5.6.html">
+                Patch Notes - v0.5.6
+              </a>
+            </h3><p>Hey folks we’ve got an update chocked full of goodies for you this week. You can read more about the high-level big new features below or skip to the bulleted lists below.</p>
+
+<p>Meet Sayyora, the newest addition to the Constelleum cast! She is a traveling prosthetist who gains a “Rambling” resource with each space she moves on the field. This resource counter affects when and how she can collect orbs and score, and also enhances several of her cards. She was inspired by the Rambler prototype character, but she is fully unique with reworked mechanics and full art/vfx. She is still movement focused with exceptional positioning options, but her “Rambling” status resource management is now much more interactive and will remain an important consideration throughout the entire game instead of just the first and last round. Her cards also have some creative new uses of old mechanics, so expect novel gameplay beyond her Rambling status! We hope you have fun with this new character. To learn more, check out Sayyora in the Deck Builder and Sandbox.</p>
+
+<p>A ton of work this patch went into making the game fully playable via focus. All while trying to make sure that as little functionality as possible was lost when not using a mouse. This means that everything can be traversed and activated with a keyboard. There were some interesting technical challenges with getting the UI to play nicely with the hexagons and to making sure tooltips worked whether you hover something or focus it.</p>
+
+<p>This work will go a long way towards our goals of being playable with almost any input scheme imaginable which has already born fruit because Constelleum now also supports controllers! This does come with a caveat as Steam’s built in input system collides with the one we use in our game. For the time being if you want to use a controller you need to go to Steam -&gt; Settings -&gt; Controller and disable the feature for your controller type. We are already investigating solutions for this and will come up with a full fix in the future.</p>
+
+<p>Lastly we added some automated data recording so that we can more easily analyze the numbers behind the gameplay and move towards fine tuning the game. This may not sound big, but being able to have easily accessible information about how much disrupt characters are doing or when people are running out of time will all be incredibly valuable for future work.</p>
+
+<p>And that’s all the “big” stuff this patch, but there’s more great stuff below too! Please report any bugs you find with these new features so that we can continue to iterate on them and make them as good as they can be.</p>
+
+<p>Wishing you a happy new year from the Constelleum team!</p>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<ul>
+  <li>Rambler added to the game now known as Sayyora with brand new cards, reworked old cards, and fully implemented character art with animations and vfx</li>
+</ul>
+
+<h2 id="art">Art</h2>
+
+<ul>
+  <li>Awali got his updated animations with a whole bunch of cool vfx</li>
+  <li>Selene has her new base animations, vfx still to come</li>
+  <li>Gnamma has her new base animations, vfx still to come</li>
+</ul>
+
+<h2 id="uiux">UI/UX</h2>
+
+<ul>
+  <li>The game is now playable with just keyboard through a suite of focus improvements</li>
+  <li>Constelleum now supports controllers. See the above paragraphs for a note about a known issue with Steam Input</li>
+  <li>The round history display now behaves more like a popup that closes like normal popups</li>
+</ul>
+
+<h2 id="backend">Backend</h2>
+
+<ul>
+  <li>Added some automated data collection from matches</li>
+  <li>We worked on the reconnect functionality to hopefully improve the ease of reconnecting</li>
+</ul>
+<a href="/patches,devlog/2024/01/18/patch-notes-v0.5.6.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 31, 2021</span>
+            <h3>
+              <a class="post-link" href="/devlog/2021/05/31/developer-log-8.html">
+                Developer Log 8
+              </a>
+            </h3><h3 id="cleaning-up-the-lobby---mitch">Cleaning up the Lobby - Mitch</h3>
+
+<p>This week I’m reporting in for Alex who has been hard at work on our new lobby system. This new system is going to provide a number of great benefits for our development pipeline as well as the future player base.</p>
+
+<p>As a small development team we rarely have enough players for a full match of Constelleum. Because of this we often need to play with unconventional game configurations like two versus one. In order to do this we needed to restart the server with new parameters which just slowed things down. More recently we’ve been using this very simple lobby system depicted below.</p>
+
+<p><img src="/assets/images/2021-05-24-developer-log-8/Screenshot_32.png" alt="Old UI for queueing and creating lobbies." /></p>
+
+<a href="/devlog/2021/05/31/developer-log-8.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 17, 2021</span>
+            <h3>
+              <a class="post-link" href="/devlog/2021/05/17/developer-log-7.html">
+                Developer Log 7
+              </a>
+            </h3><h3 id="still-here---mitch">Still Here - Mitch</h3>
+
+<p>It has been a loooong time since we posted our original dev blog articles as an experiment about a year ago. At the time we were still fledgling and figuring out where we wanted to take Constelleum. And the good news is that our lack of posts was because we had our heads down working hard to bring our game to life. Now that we are getting close to an alpha state it feels like a good time to start sharing what we’ve been up to.</p>
+
+<p><img src="/assets/images/2021-05-17-developer-log-7/new_promo_tease.png" alt="Three character silhouettes on hexagons against a starry background." /></p>
+
+<a href="/devlog/2021/05/17/developer-log-7.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 28, 2020</span>
+            <h3>
+              <a class="post-link" href="/devlog/2020/05/28/developer-log-6.html">
+                Developer Log 6
+              </a>
+            </h3><h3 id="sandbox---matt">Sandbox - Matt</h3>
+
+<p>This week I implemented a Sandbox mode in our game client. This allows us (and any player) to run the game locally and test cards and mechanics against dummy players. To accompany this, I also made a new map with clusters of obstacles. Here’s how it looks:</p>
+
+<p><img src="/assets/images/2020-05-28-developer-log-6/sandbox.png" alt="Map with circles of cracks, vines, and walls" /></p>
+
+<a href="/devlog/2020/05/28/developer-log-6.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 25, 2020</span>
+            <h3>
+              <a class="post-link" href="/devlog/2020/05/25/developer-log-5.html">
+                Developer Log 5
+              </a>
+            </h3><h3 id="animation---alex">Animation - Alex</h3>
+
+<p>This week Dev-Level animations were completed for the first three characters, Adrenaline, Flow, and The Elemantalist replacing Juggernaut, Grappler, and Archer.</p>
+
+<p><img src="/assets/images/2020-05-25-developer-log-5/Adrenaline_Idle.gif.gif" alt="Dev art Adrenaline tapping her foot and bobbing her axe above her shoulder." /><img src="/assets/images/2020-05-25-developer-log-5/flow_idle.gif" alt="Dev art Flow holding onto his walking stick." /><img src="/assets/images/2020-05-25-developer-log-5/elementalist_idle.gif" alt="Dev art Elementalist holding his hands in a spell casters pose at chest height." /></p>
+
+<a href="/devlog/2020/05/25/developer-log-5.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 21, 2020</span>
+            <h3>
+              <a class="post-link" href="/devlog/2020/05/21/developer-log-4.html">
+                Developer Log 4
+              </a>
+            </h3><h3 id="bugs-and-bugs-and-bugs-oh-my---alex">Bugs and Bugs and Bugs, Oh My! - Alex</h3>
+
+<p>Our first playtest in mid-April revealed nasty bugs already present in our still simple game. Players reported crashes when viewing their own hands on other player’s turns, starting positions were determined based on connection order instead of team (A feature -Mitch), and attacks that were not meant to deal damage could be buffed to deal damage. The bugs were fantastic to see and fascinating to squash, because they drew us deeper into the very powerful Godot engine.</p>
+
+<p>Matt posted last week on how he implemented a Starting Position Phase to fix the initial violation of personal space.</p>
+
+<p><img src="/assets/images/2020-05-21-developer-log-4/fancy_meeting.png" alt="Two players starting next to one from the opposing team with the words fancy meeting you here." /></p>
+
+<a href="/devlog/2020/05/21/developer-log-4.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 18, 2020</span>
+            <h3>
+              <a class="post-link" href="/devlog/2020/05/18/developer-log-3.html">
+                Developer Log 3
+              </a>
+            </h3><h3 id="from-version-to-version---mitch">From Version to Version - Mitch</h3>
+
+<p>This past week the team switched over to the next version of the game, V5 to V6, so this felt like an opportune time to share a bit of our process. I can’t say it’s anything special, but it works for us so on some level that just means it works.</p>
+
+<p>The first step is our roadmap. A while back we created a list of rough grain features that we thought were essential to our games completion. Using those features we project out about 2 months on our roadmap on Trello.</p>
+
+<p><img src="/assets/images/2020-05-18-developer-log-3/Screenshot_9.png" alt="Two Trello lists for our V5 and V6 roadmap." longdesc="/assets/long_descriptions/trello_v5andv6" /></p>
+
+<a href="/devlog/2020/05/18/developer-log-3.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 15, 2020</span>
+            <h3>
+              <a class="post-link" href="/devlog/2020/05/15/developer-log-2.html">
+                Developer Log 2
+              </a>
+            </h3><h3 id="animation-when-push-comes-to-shove---alex">Animation: When Push Comes to Shove - Alex</h3>
+
+<p>Time to get things moving. This week we attacked the first pass on animations, not letting ourselves sit on idle hands.</p>
+
+<p>Before animation, the game state was updated as soon as a turn ended. For players not taking their turn, characters popped from point to point and swung an axe without moving a muscle. Fantastic material for theater of the mind, but a hint as to why your character is halfway to defeat is usually appreciated. You want to see fists fly, boots scoot, and heads bob.</p>
+
+<p>During my original pass on some developer assets, I had put together some crude animations. As the reader will witness shortly, the graphic arts are not my strength. Each animation is two to four frames of 100 X 100 pixels made in GIMP. The frames are pixel art only because I had dabbled in making custom avatars for Kingdom of Loathing 10 years ago. The final art style, though still being discussed, will not be pixel art.</p>
+
+<p>The following idle animations feature our placeholder characters:</p>
+
+<p><img src="/assets/images/2020-05-15-developer-log-2/archer.gif" alt="Archer idle animation." /><img src="/assets/images/2020-05-15-developer-log-2/grapp.gif" alt="Grappler idle animation." /><img src="/assets/images/2020-05-15-developer-log-2/jugg.gif" alt="Juggernaut idle animation." /></p>
+
+<a href="/devlog/2020/05/15/developer-log-2.html">
+              read more....
+            </a>
+          </li>
+          <li><span class="post-meta">May 11, 2020</span>
+            <h3>
+              <a class="post-link" href="/devlog/2020/05/11/developer-log-1.html">
+                Developer Log 1
+              </a>
+            </h3><h3 id="the-big-picture---mitch">The Big Picture - Mitch</h3>
+
+<p>We recently asked for some help with narrowing down our name choice for the game. We asked friends, family, and the DayKnight community to take a short survey and with 20 responses these were the results with literally no context of the game.</p>
+
+<figure>
+    <img src="/assets/images/2020-05-11-developer-log-1/Screenshot_4.png" alt="Column graphs rating the names Celestian Accord, Confluence of Light, Constelleum, and Fractured Constellation 1 through 4." longdesc="/assets/long_descriptions/uninformed_name_survey.markdown" />
+</figure>
+
+<p>We then gave people the following context and asked them to rank the names again.</p>
+
+<p>Our game is a 3 versus 3 turn-based arena competition where players play cards from their hand to control their characters on a hex based map.</p>
+
+<p>Lore wise the game takes place in a fantastical universe where people live on the backs of giant celestial creatures known as the world beasts. Every so often there is a great concordance bringing the people of these worlds together. In celebration of the peace between the worlds they compete in battles of wit, strength, and magic.</p>
+
+<figure>
+    <img src="/assets/images/2020-05-11-developer-log-1/Screenshot_3.png" alt="Column graphs rating the names Celestian Accord, Confluence of Light, Constelleum, and Fractured Constellation 1 through 4." longdesc="/assets/long_descriptions/informed_name_survey.markdown" />
+</figure>
+
+<p>With this data and some internal debate we narrowed our options down to Celestian Accord and Constelleum and are trying to decide if we need to lock ourselves in to one sooner than later. In some ways it would be beneficial to have a name to market and build a community around, but it’s also taking up mental energy that should be dedicated to development. Regardless of what we do, thank you to anyone who filled out the survey!</p>
+
+<p>Before I pass you on to the other folks I’d like to introduce you to the team you’ll be hearing from week to week.</p>
+
+<p>Alex - Graphics/UI/Tools</p>
+
+<p>Matt - Game Core</p>
+
+<p>Mitch - Organization, Design</p>
+
+<p>None of these roles are very hard and fast. The group is extremely democratic and everyone has had their fingers over a variety of elements of the project.</p>
+
+<h3 id="starting-positions-and-where-to-find-them---matt">Starting Positions and Where to Find Them - Matt</h3>
+
+<p>One thing I worked on this week was adding a new game phase for players to select their starting positions. Previously, starting positions existed in a predefined list, and they were assigned to players on a first-come-first-serve basis upon character selection. When you started the game, you were placed somewhere on the field with no explanation—maybe near friends and maybe near foes.</p>
+
+<p>Our new implementation is to instead define an area of possible starting positions by team, then have players choose their individual starting positions from this area. This allows more control, more visibility, and a new element of strategy.</p>
+
+<p>The starting position draft phase begins when everyone has selected their characters. All possible starting positions are sent to everyone, and players must decide where in a highlighted area they want to pick. Clicking / keyboard-navigating to a tile will move your character icon to the tile both locally and for all teammates. (This was the first place in our server with an RPC to all players on one team and not the other; progress!) Here is a screenshot of this process:</p>
+
+<figure>
+    <img src="/assets/images/2020-05-11-developer-log-1/8hfn2-ivD26z4IFfR8mhHh55Jfxgvny9D2_-LmWu8IMpWjG6qowPKKrufVJA81erMU4ynh6s0gGXQUVeLdVSkbqdC69CznWtgfSm.png" alt="Starting position hexagons are highlighted. 2 characters have been tentatively placed." />
+</figure>
+
+<p>To prevent overlap between player’s selections, the server is the arbiter of all position choices. To save a round trip to the server, the clients use an optimistic concurrency control where they update locally assuming no conflicts but are able to roll back to an open position if the server indicates that the user choice was invalid. Once a player confirms their starting location, the tile is unhighlighted as an indication to teammates.</p>
+
+<figure>
+    <img src="/assets/images/2020-05-11-developer-log-1/bIoz62zYmjd7FW1tJynPlQlTmlVk-xCRTiYDW3OEmn7Cu1jkfg1kAcQ5juHp_kYdDf9u3C2H0eOSadY2cU8OgumK-XE_l2jdgJsd.png" alt="Starting position hexagons are highlighted. One player has submitted their position and the hexagon unhighlighted." />
+</figure>
+
+<p>Once the whole team is locked in, all tiles are unhighlighted. When all players have selected their starting positions, players from the opposing team appear on the field, and the game starts!</p>
+
+<p>To facilitate this new starting position draft, I also made a few updates to our internal map editor tool to easily define the starting position areas for both teams. This tool had been broken since we added the obstacle system, so my work on it turned into a big update/refactor. A nice byproduct of that work is that we now have a library of obstacles that we can place in any space on the field with a simple dropdown. Here’s how it looks:</p>
+
+<figure>
+    <img src="/assets/images/2020-05-11-developer-log-1/maptool.gif" alt="Clicks and highlights hexagons before adding the wall obstacle from a drop-down." />
+</figure>
+<a href="/devlog/2020/05/11/developer-log-1.html">
+              read more....
+            </a>
+          </li></ul>
+      
+      <p class="rss-subscribe light-blue">subscribe <a href="/feed.xml">via RSS</a></p></div>
+</div>
+
+    </main><footer class="w-100">
+
+  <div class="mw9 h4 bottom-wash center">
+    <div class="fl w-100">
+      <div class="mw6 center flex justify-center">
+        <div class="w-25 ph3 tc">
+          <a href="https://discord.gg/7kuX43FQsg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-75" fill="currentColor" viewBox="0 0 512 512">
+              <title>Discord icon</title>
+              <path d="M464 66.52A50 50 0 00414.12 17L97.64 16A49.65 49.65 0 0048 65.52V392c0 27.3 22.28 48 49.64 48H368l-13-44 109 100zM324.65 329.81s-8.72-10.39-16-19.32C340.39 301.55 352.5 282 352.5 282a139 139 0 01-27.85 14.25 173.31 173.31 0 01-35.11 10.39 170.05 170.05 0 01-62.72-.24 184.45 184.45 0 01-35.59-10.4 141.46 141.46 0 01-17.68-8.21c-.73-.48-1.45-.72-2.18-1.21-.49-.24-.73-.48-1-.48-4.36-2.42-6.78-4.11-6.78-4.11s11.62 19.09 42.38 28.26c-7.27 9.18-16.23 19.81-16.23 19.81-53.51-1.69-73.85-36.47-73.85-36.47 0-77.06 34.87-139.62 34.87-139.62 34.87-25.85 67.8-25.12 67.8-25.12l2.42 2.9c-43.59 12.32-63.44 31.4-63.44 31.4s5.32-2.9 14.28-6.77c25.91-11.35 46.5-14.25 55-15.21a24 24 0 014.12-.49 205.62 205.62 0 0148.91-.48 201.62 201.62 0 0172.89 22.95s-19.13-18.15-60.3-30.45l3.39-3.86s33.17-.73 67.81 25.16c0 0 34.87 62.56 34.87 139.62 0-.28-20.35 34.5-73.86 36.19z"/><path d="M212.05 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.8 0 24.7-11.83 24.7-26.57.25-14.76-10.9-26.57-24.7-26.57zM300.43 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.81 0 24.7-11.83 24.7-26.57S314 218 300.43 218z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="w-25 ph3 tc">
+          <a href="https://store.steampowered.com/app/1796970/Constelleum/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-75" fill="currentColor" viewBox="0 0 65 65">
+              <title>Steam icon</title>
+              <path d="M 31.958984,0 C 15.001001,0 1.1233427,13.192064 0.02734375,29.873047 c 0.0056595,0.0095 0.0099844,0.01788 0.015625,0.02734 2.49e-6,-4.2e-5 0,-0.0078 0,-0.0078 L 17.236328,36.980469 a 8.14,8.14 0 0 1 1.498047,-0.800781 c 1.207999,-0.497 2.480048,-0.72011 3.748047,-0.66211 l 7.830078,-11.375 -0.002,-0.158203 h -0.0098 c 0,-6.713993 5.452304,-12.173828 12.154297,-12.173828 6.714993,0.014 12.154297,5.459835 12.154297,12.173828 0,6.713993 -5.449304,12.179687 -12.154297,12.179687 l -0.27539,-0.0039 -11.19336,8.003906 a 8.89,8.89 0 0 1 -0.683594,3.65625 8.88,8.88 0 0 1 -11.603515,4.783204 C 15.937222,51.453517 14.057031,49.060029 13.457031,46.332031 L 1.3476562,41.335938 C 5.3445998,54.450212 17.537644,64 31.958984,64 c 17.672983,0 32,-14.327018 32,-32 0,-17.672982 -14.327017,-32 -32,-32 z m 10.507813,15.876953 a 8.12,8.12 0 0 0 -8.099609,8.109375 8.12,8.12 0 0 0 8.099609,8.113281 8.12,8.12 0 0 0 8.099609,-8.113281 8.12,8.12 0 0 0 -8.099609,-8.109375 z m 0.01172,2.001953 c 3.354996,0 6.083984,2.730707 6.083984,6.095703 a 6.09,6.09 0 0 1 -6.083984,6.091797 6.09,6.09 0 0 1 -6.082032,-6.091797 h 0.002 a 6.09,6.09 0 0 1 6.080078,-6.095703 z M 22.173828,37.544922 c -0.855499,-0.0071 -1.699282,0.147266 -2.488281,0.447266 l 4.099609,1.695312 a 5.05,5.05 0 0 1 2.716797,6.599609 5.04,5.04 0 0 1 -6.591797,2.720703 l -3.957031,-1.640624 a 6.84,6.84 0 0 0 3.523437,3.361328 c 3.486997,1.452998 7.499127,-0.193363 8.953126,-3.69336 h -0.0078 c 0.701999,-1.685998 0.705765,-3.553095 0.0098,-5.246094 -0.696,-1.692998 -1.995315,-3.017703 -3.695313,-3.720703 -0.838999,-0.348499 -1.707001,-0.516312 -2.5625,-0.523437 z" />
+            </svg>
+          </a>
+        </div>`
+        <!-- <a class="page-link lh-title f3 ferrum" href="https://store.steampowered.com/app/1796970/Constelleum/">&bull; STEAM LINK &bull;</a><br> -->
+      </div>
+    </div>
+    <div class="fl w-100 tc avenir white">
+      © Constelleum 2021-2024
+    </div>
+  </div>
+
+</footer>
+</body>
+
+</html>
