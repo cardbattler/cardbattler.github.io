@@ -2,17 +2,33 @@ name: Build and Deploy Jekyll Site
 
 # Trigger the workflow on push and pull request events to the 'main' branch
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches:
       - main
+  # Runs on pull requests to the default branch
   pull_request:
     branches:
       - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     # The job will run on the latest Ubuntu runner
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
       # Step 1: Check out the repository content to the GitHub runner
@@ -38,15 +54,23 @@ jobs:
 
       # Step 5: Run a container from the built image to execute the Jekyll build command
       - name: Run Jekyll to build the site
-        run: docker run --rm -v ${{ github.workspace }}:/srv/jekyll jekyll-4.3.3 bundle exec jekyll build
+        run: docker run --rm -v ${{ github.workspace }}:/srv/jekyll jekyll-4.3.3 bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      # Step 6: Automatically uploads an artifact from the './_site' directory by default
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+  
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # The job will run on the latest Ubuntu runner
+    runs-on: ubuntu-latest
+    needs: build
 
-      # Step 6: Deploy the built site to GitHub Pages (only on the main branch)
-      - name: Upload Jekyll site to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        # If you're changing the branch from main,
-        # also change the `main` in `refs/heads/main`
-        # below accordingly.
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+    steps:
+      # Step 7: Deploy the built site to GitHub Pages (only on the main branch)
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
