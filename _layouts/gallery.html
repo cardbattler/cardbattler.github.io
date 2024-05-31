@@ -11,7 +11,13 @@ layout: content
       <ul class="post-list">
         {%- for post in site.posts -%}
           {%- if post.categories contains "characters" %}
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h2>
             {{ post.excerpt }}
+            <hr>
           {%- endif %}
         {%- endfor -%}
       </ul>
