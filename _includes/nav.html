@@ -1,4 +1,6 @@
 <div class="tc mw5 center relative-l relative-m absolute top--2 right-0 left-0">
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
   {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
     {%- if my_page.title -%}

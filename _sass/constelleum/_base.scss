@@ -293,3 +293,7 @@ table {
     border-bottom-color: darken($grey-color-light, 12%);
   }
 }
+
+.no-wrap {
+  white-space: nowrap;
+}
