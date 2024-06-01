@@ -54,3 +54,13 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - about.md
+  - characters.md
+  - devlog.md
+
+footer_pages:
+  - contact.md
+  - privacy.md
+  - terms-of-use.md
