@@ -12,8 +12,9 @@
 # AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
 # OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-FROM ruby:3.3.1-alpine3.20@sha256:4322ab2cd0b836fb1129e598d2e9cda6893974c13ce049616f2e8cabb98efd5c
+FROM ruby:3.3.1-alpine3.20
 COPY copy /
+COPY Gemfile .
 
 #
 # EnvVars
@@ -34,12 +35,12 @@ ENV RUBYOPT=-W0
 #
 
 ENV JEKYLL_VAR_DIR=/var/jekyll
-ENV JEKYLL_DOCKER_TAG=jekyll-4.3.3
+# ENV JEKYLL_DOCKER_TAG=jekyll-4.3.3
 ENV JEKYLL_VERSION=4.3.3
-ENV JEKYLL_DOCKER_NAME=jekyll-4.3.3
+# ENV JEKYLL_DOCKER_NAME=jekyll-4.3.3
 ENV JEKYLL_DATA_DIR=/srv/jekyll
 ENV JEKYLL_BIN=/usr/jekyll/bin
-ENV JEKYLL_ENV=development
+ENV JEKYLL_ENV=production
 
 #
 # EnvVars
@@ -49,7 +50,7 @@ ENV JEKYLL_ENV=development
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US:en
 ENV TZ=America/Chicago
-ENV PATH="$JEKYLL_BIN:$PATH"
+ENV PATH="$GEM_HOME/bin:$GEM_HOME/gems/bin:$JEKYLL_BIN:$PATH"
 ENV LC_ALL=en_US.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US
@@ -122,23 +123,22 @@ RUN unset GEM_HOME && unset GEM_BIN && \
 # Main
 #
 
-RUN unset GEM_HOME && unset GEM_BIN && yes | gem install --force bundler
-RUN gem install jekyll -v 4.3.3 -- \
-    --use-system-libraries
-
+RUN unset GEM_HOME && unset GEM_BIN && yes | gem install --force --default bundler -v 2.5.11
+# RUN gem install jekyll -v 4.3.3 -- \
+#     --use-system-libraries
+RUN bundle install
 #
 # Gems
 # User
 #
 
-
 # Stops slow Nokogiri!
-RUN gem install \
-  jekyll-sass-converter \
-  jekyll-sitemap \
-  jekyll-feed \
-  jekyll-seo-tag \
-  -- --use-system-libraries
+# RUN gem install \
+#   jekyll-sass-converter \
+#   jekyll-sitemap \
+#   jekyll-feed \
+#   jekyll-seo-tag \
+#   -- --use-system-libraries
 
 
 RUN addgroup -Sg 1000 jekyll
@@ -184,7 +184,7 @@ RUN mkdir -p /usr/gem/cache/bundle
 RUN chown -R jekyll:jekyll \
   /usr/gem/cache/bundle
 
-CMD ["jekyll", "--help"]
+# CMD ["jekyll", "--help"]
 ENTRYPOINT ["/usr/jekyll/bin/entrypoint.sh"]
 WORKDIR /srv/jekyll
 VOLUME  /srv/jekyll
