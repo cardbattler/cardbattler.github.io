@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Terms of Use
 permalink: /terms-of-use/
 ---

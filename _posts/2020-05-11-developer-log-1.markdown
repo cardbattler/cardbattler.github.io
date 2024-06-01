@@ -13,7 +13,7 @@ We recently asked for some help with narrowing down our name choice for the game
     <img
         src="{{site.baseurl}}/assets/images/2020-05-11-developer-log-1/Screenshot_4.png" 
         alt="Column graphs rating the names Celestian Accord, Confluence of Light, Constelleum, and Fractured Constellation 1 through 4."
-        longdesc="{{site.baseurl}}/assets/long_descriptions/uninformed_name_survey.markdown"
+        longdesc="{{site.baseurl}}/assets/long_descriptions/uninformed_name_survey.md"
     >
 </figure>
 
@@ -27,7 +27,7 @@ Lore wise the game takes place in a fantastical universe where people live on th
     <img
         src="{{site.baseurl}}/assets/images/2020-05-11-developer-log-1/Screenshot_3.png" 
         alt="Column graphs rating the names Celestian Accord, Confluence of Light, Constelleum, and Fractured Constellation 1 through 4."
-        longdesc="{{site.baseurl}}/assets/long_descriptions/informed_name_survey.markdown"
+        longdesc="{{site.baseurl}}/assets/long_descriptions/informed_name_survey.md"
     >
 </figure>
 
