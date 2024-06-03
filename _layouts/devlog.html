@@ -13,18 +13,19 @@ layout: content
         {%- for post in site.posts -%}
           {%- unless post.categories contains "characters" %}
           <li>
-            {%- assign date_format = "%B %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
+            
+            <h2>
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
               </a>
-            </h3>
+            </h2>
+            {%- assign date_format = "%B %-d, %Y" -%}
+            <div class="post-meta">{{ post.date | date: date_format }} &bull; {{ post.categories }}  &bull; {{ post.author }}</div>
             {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
+              <div class="excerpt">{{ post.excerpt }}</div>
             {%- endif -%}
             <a href="{{ post.url | relative_url }}">
-              read more....
+              Read more
             </a>
           </li>
           {%- endunless %}

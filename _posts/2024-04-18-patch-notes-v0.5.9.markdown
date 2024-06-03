@@ -2,12 +2,25 @@
 layout: post
 title:  "Patch Notes - v0.5.9"
 date:   2024-04-18
-categories: patches,devlog
+categories: patch-notes
+author: 
 ---
 
-This month we put a lot of effort into polishing our keyboard / controller experience and improving our tutorials. With Constelleum feeling more and more complete, we are working hard to better our new player experience so we can broaden our community and get fresh players testing our game! As part of our input updates, we completely revamped the settings menu, making it fully navigable with a controller only. We hope the menus feel snappier and more intuitive than ever, and that our new players have a better experience with the tutorial!
+This month we put a lot of effort into polishing
+our keyboard / controller experience and improving our tutorials.
+With Constelleum feeling more and more complete,
+we are working hard to better our new player experience
+so we can broaden our community
+and get fresh players testing our game!
+As part of our input updates,
+we completely revamped the settings menu,
+making it fully navigable with a controller only.
+We hope the menus feel snappier and more intuitive than ever,
+and that our new players have a better experience with the tutorial!
 
-In addition to that, this version comes with many bug fixes and exciting new art. See below for details!
+In addition<!--end_excerpt--> to that,
+this version comes with many bug fixes and exciting new art.
+See below for details!
 
 ## Tutorial
 

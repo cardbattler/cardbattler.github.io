@@ -2,12 +2,29 @@
 layout: post
 title:  "Patch Notes - v0.5.6"
 date:   2024-01-18
-categories: patches,devlog
+categories: patch-notes
+author: 
 ---
 
-Hey folks we've got an update chocked full of goodies for you this week. You can read more about the high-level big new features below or skip to the bulleted lists below.
+Hey folks we've got an update chocked full of goodies for you this week.
+You can read more about the high-level big new features below
+or skip to the bulleted lists below.
 
-Meet Sayyora, the newest addition to the Constelleum cast! She is a traveling prosthetist who gains a "Rambling" resource with each space she moves on the field. This resource counter affects when and how she can collect orbs and score, and also enhances several of her cards. She was inspired by the Rambler prototype character, but she is fully unique with reworked mechanics and full art/vfx. She is still movement focused with exceptional positioning options, but her "Rambling" status resource management is now much more interactive and will remain an important consideration throughout the entire game instead of just the first and last round. Her cards also have some creative new uses of old mechanics, so expect novel gameplay beyond her Rambling status! We hope you have fun with this new character. To learn more, check out Sayyora in the Deck Builder and Sandbox.
+Meet Sayyora, the newest addition to the Constelleum cast!
+She is a traveling prosthetist who gains a "Rambling" resource
+with each space she moves on the field.
+This resource counter affects when and how she can collect orbs and score,
+and also enhances several of her cards.
+She was inspired by the Rambler prototype character,
+but she is fully unique with reworked mechanics and full art/vfx.
+She is still movement focused with exceptional positioning options,
+but her "Rambling" status resource management is now much more interactive
+and will remain an<!--end_excerpt--> important consideration throughout the entire game
+instead of just the first and last round.
+Her cards also have some creative new uses of old mechanics,
+so expect novel gameplay beyond her Rambling status!
+We hope you have fun with this new character.
+To learn more, check out Sayyora in the Deck Builder and Sandbox.
 
 A ton of work this patch went into making the game fully playable via focus. All while trying to make sure that as little functionality as possible was lost when not using a mouse. This means that everything can be traversed and activated with a keyboard. There were some interesting technical challenges with getting the UI to play nicely with the hexagons and to making sure tooltips worked whether you hover something or focus it.
 

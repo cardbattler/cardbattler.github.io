@@ -3,17 +3,25 @@ layout: post
 title:  "Developer Log 8"
 date:   2021-05-31
 categories: devlog
+author: Mitch Finzel
 ---
 
-### Cleaning up the Lobby - Mitch
+## Cleaning up the Lobby
 
-This week I'm reporting in for Alex who has been hard at work on our new lobby system. This new system is going to provide a number of great benefits for our development pipeline as well as the future player base. 
+This week I'm reporting in for Alex
+who has been hard at work on our new lobby system.
+This new system is going to provide a number of great benefits
+for our development pipeline as well as the future player base.
 
-As a small development team we rarely have enough players for a full match of Constelleum. Because of this we often need to play with unconventional game configurations like two versus one. In order to do this we needed to restart the server with new parameters which just slowed things down. More recently we've been using this very simple lobby system depicted below.
+As a small development team we rarely have<!--end_excerpt--> enough players
+for a full match of Constelleum.
+Because of this we often need to play with unconventional game configurations
+like two versus one.
+In order to do this we needed to restart the server
+with new parameters which just slowed things down.
+More recently we've been using this very simple lobby system depicted below.
 
 ![Old UI for queueing and creating lobbies.]({{site.baseurl}}/assets/images/2021-05-24-developer-log-8/Screenshot_32.png)
-
-<!--end_excerpt-->
 
 This worked well enough for our last playtest, but is too feature light for our future needs. While Constelleum will largely be focused around its main gameplay mode, allowing players to create lobbies to fit their more specific needs has always been a part of our long-term goal. Enter the new lobby system.
 

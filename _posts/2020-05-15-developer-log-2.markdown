@@ -3,21 +3,30 @@ layout: post
 title:  "Developer Log 2"
 date:   2020-05-15
 categories: devlog
+author: Alex McIntosh
 ---
 
-### Animation: When Push Comes to Shove - Alex
+## Animation: When Push Comes to Shove
 
-Time to get things moving. This week we attacked the first pass on animations, not letting ourselves sit on idle hands.
+Time to get things moving.
+This week we attacked the first pass on animations,
+not letting ourselves sit on idle hands.
 
-Before animation, the game state was updated as soon as a turn ended. For players not taking their turn, characters popped from point to point and swung an axe without moving a muscle. Fantastic material for theater of the mind, but a hint as to why your character is halfway to defeat is usually appreciated. You want to see fists fly, boots scoot, and heads bob.
+Before animation, the game state was updated as soon as a turn ended.
+For players not taking their turn,
+characters popped from point to point and swung an axe without moving a muscle.
+Fantastic material for theater of the mind,
+but a hint as to why your character is halfway to defeat is usually appreciated.
+You want to see fists fly, boots scoot, and heads bob.
 
-During my original pass on some developer assets, I had put together some crude animations. As the reader will witness shortly, the graphic arts are not my strength. Each animation is two to four frames of 100 X 100 pixels made in GIMP. The frames are pixel art only because I had dabbled in making custom avatars for Kingdom of Loathing 10 years ago. The final art style, though still being discussed, will not be pixel art.
+During <!--end_excerpt-->my original pass on some developer assets,
+I had put together some crude animations. As the reader will witness shortly, the graphic arts are not my strength. Each animation is two to four frames of 100 X 100 pixels made in GIMP. The frames are pixel art only because I had dabbled in making custom avatars for Kingdom of Loathing 10 years ago. The final art style, though still being discussed, will not be pixel art.
 
 The following idle animations feature our placeholder characters:
 
-![Archer idle animation.]({{site.baseurl}}/assets/images/2020-05-15-developer-log-2/archer.gif)![Grappler idle animation.]({{site.baseurl}}/assets/images/2020-05-15-developer-log-2/grapp.gif)![Juggernaut idle animation.]({{site.baseurl}}/assets/images/2020-05-15-developer-log-2/jugg.gif)
-
-<!--end_excerpt-->
+![Archer idle animation.]({{site.baseurl}}/assets/images/2020-05-15-developer-log-2/archer.gif)
+![Grappler idle animation.]({{site.baseurl}}/assets/images/2020-05-15-developer-log-2/grapp.gif)
+![Juggernaut idle animation.]({{site.baseurl}}/assets/images/2020-05-15-developer-log-2/jugg.gif)
 
 The frames I made were imported into Godot and added as texture keys in an AnimationPlayer. The AnimationPlayer updates the character’s avatar image, animating it.
 

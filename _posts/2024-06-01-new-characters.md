@@ -3,6 +3,7 @@ layout: post
 title: New Characters
 date: 2024-06-01
 categories: devlog
+author: Alex McIntosh
 ---
 
 Since the last devlog,
@@ -14,10 +15,8 @@ Check them out on the [character gallery page]({{site.base_url}}/characters/)!
 For the rest of this article, I will dig further into each character
 than the summary cards present.
 
-<!--end_excerpt-->
-
-People who follow the game or have had a chance to test it
-will recognize some of the new faces in the gallery.
+People who follow the game or have had a chance to play test it
+will recognize<!--end_excerpt--> some of the new faces in the gallery.
 Gimbal, Gnamma, and Selene have appeared in play tests for some time
 as we refined their design and mechanics.
 Come join us on
@@ -65,17 +64,17 @@ or play 2 steps ahead of the opposing team.
         alt="Full body portrait of Gnamma"
         height="256"
     >
-    <figcaption>Gnamma (top) summoning Tophat (left) and Mulberry (right)</figcaption>
+    <figcaption>Gnamma (top) summoning Top Hat (left) and Mulberry (right)</figcaption>
 </figure>
 
 If Kaleesi is the mother of dragons,
 then Gnamma is the mother of warthogs.
-Tophat and Mullbery
+Top Hat and Mullbery
 (development names that just stuck, and we love that they did)
 are Gnamma's **Companions** that can be **Summoned** to help on the field.
 
 Gnamma is similar to Gimbal in her "set-and-forget" nature.
-Tophat and Mulberry play their own cards at the beginning of each round.
+Top Hat and Mulberry play their own cards at the beginning of each round.
 During their turns, they are controlled by our Companion engine,
 a rule-based artificial intelligence (AI) system.
 The rules are designed to be easily interpretable,

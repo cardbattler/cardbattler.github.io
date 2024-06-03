@@ -2,14 +2,27 @@
 layout: post
 title:  "Patch Notes - v0.5.8"
 date:   2024-03-21
-categories: patches,devlog
+categories: patch-notes
+author: 
 ---
 
-We're keeping up a good monthly stride with a new slate of features and fixes. As per usual you can jump to the bottom for a more concise bulleted list.
+We're keeping up a good monthly stride with a new slate of features and fixes.
+As per usual you can jump to the bottom for a more concise bulleted list.
 
-This month we put a lot of effort into improving our map creation workflow. There were certain elements of map making that were tedious in the past so it's been too burdensome to quickly try out fun new ideas for maps. With our new map editor this is a problem of the past and we are excited to show off some pretty dramatically different map ideas at this month's play test. We're also excited to someday put this editor into your hands and see what the community can come up with!
+This month we put a lot of effort into improving our map creation workflow.
+There were certain elements of map making that were tedious in the past
+so it's been too burdensome to quickly try out fun new ideas for maps.
+With our new map editor this is a problem of the past
+and we are excited to show off some pretty dramatically different map ideas
+at this month's play test<!--end_excerpt-->.
+We're also excited to someday put this editor into your hands
+and see what the community can come up with!
 
-Another major gameplay experiment we are trying out is the Team Refresh. If everyone on the team refreshes in the same round the entire team will get Decisive 99 and Empowered at the end of the round. We've got lots of ideas for where to take this system so please let us know what you think!
+Another major gameplay experiment we are trying out is the Team Refresh.
+If everyone on the team refreshes in the same round
+the entire team will get Decisive 99 and Empowered at the end of the round.
+We've got lots of ideas for where to take this system
+so please let us know what you think!
 
 Sandbox also got a major reworking of its tools inspired by the new map editor so that you can set up just about any experiment you can imagine. This rework will also be a major boon for our ability to more rapidly design challenges which is our next major thrust for the coming month.
 

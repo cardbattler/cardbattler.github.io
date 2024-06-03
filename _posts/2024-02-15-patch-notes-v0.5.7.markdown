@@ -2,14 +2,27 @@
 layout: post
 title:  "Patch Notes - v0.5.7"
 date:   2024-02-15
-categories: patches,devlog
+categories: patch-notes
+author: 
 ---
 
-We have a lot of exciting updates this month! Read the following paragraphs for details or jump to the bottom for a short bullet list summary.
+We have a lot of exciting updates this month!
+Read the following paragraphs for details
+or jump to the bottom for a short bullet list summary.
 
-In this patch, the animation queue got a lot of love! Now all movement and forced movement types have their own animations! Several characters have special Drag animations now, and Sayyora even has a Jumping animation. This also comes with improvements to the directions that pawns face. Everything is looking smooth and even more readable.
+In this patch, the animation queue got a lot of love!
+Now all movement and forced movement types have their own animations!
+Several characters have special Drag animations now,
+and Sayyora even has a Jumping animation.
+This also comes with improvements to the directions that pawns face.
+Everything is looking smooth<!--end_excerpt--> and even more readable.
 
-Speaking of animations, all of the pawns are now using our new animation and vfx system, and the game now has dynamic timing tweaks to normalize animation durations as well! We may need more tinkering to dial in timings, but already our longer animations are feeling more snappy.
+Speaking of animations,
+all of the pawns are now using our new animation and vfx system,
+and the game now has dynamic timing tweaks
+to normalize animation durations as well!
+We may need more tinkering to dial in timings,
+but already our longer animations are feeling more snappy.
 
 In other art news, we have several new map backgrounds in the works that better fit the game's aesthetic and are focused on the World Beasts of Constelleum's lore. We are showcasing some new background concept art in this update as a teaser and to hear your thoughts.
 
@@ -27,7 +40,7 @@ Wishing you a happy Valentines Day from the Constelleum team!
 ## Art
 
 - Selene got most of her new vfx
-- Tophat and Mulberry got their new animations concluding our migration to the new animation system
+- Top Hat and Mulberry got their new animations concluding our migration to the new animation system
 - New map background concept art
 
 ## UI/UX

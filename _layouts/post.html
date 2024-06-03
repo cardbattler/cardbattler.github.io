@@ -3,7 +3,8 @@
 
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  
+  {%- assign date_format = "%B %-d, %Y" -%}
+
   {%- include head.html -%}
 
   <body>
@@ -31,6 +32,9 @@
     
     <main class="cf page-content relative white mw7 center avenir pa4 sparkle" aria-label="Content">
       <h1 class="page-heading f1">{{ page.title }}</h1>
+      <div class="post-meta">{{ page.date | date: date_format }}</div>
+      <div class="post-meta">{{ page.author }}</div>
+      <br>
       
       {{ content }}
       
