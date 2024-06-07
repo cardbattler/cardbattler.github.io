@@ -4,4 +4,10 @@ title: Contact Us
 permalink: /contact/
 ---
 
-Constelleum is currently on Discord. Come join us and hang out with the community as well as have the chance to play test builds.
+Constelleum is on [Discord](https://discord.gg/7kuX43FQsg).
+Come hang out with the community,
+stay up to date on devopment,
+chat with the devs,
+and have a chance to play test builds.
+
+You can also email us at <info@constelleum.com>.
