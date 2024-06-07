@@ -303,3 +303,7 @@ table {
 .no-wrap {
   white-space: nowrap;
 }
+
+.excerpt p:last-child::after {
+  content: '...';
+}

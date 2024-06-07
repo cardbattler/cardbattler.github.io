@@ -252,4 +252,11 @@
       @include relative-font-size(1.125);
     }
   }
+
+  p {
+    text-align: left;
+  }
+  ul {
+    text-align: left;
+  }
 }
