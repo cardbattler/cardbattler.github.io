@@ -16,12 +16,12 @@ to score orbs in goals and defeat their opponents.
   while interacting with their teammates and opponents.
 
 The idea for Constelleum sparked in the fall of 2019
-when one of our team members developed carpal tunnel issues.
+when one of our team members developed limitations owing to carpal tunnel.
 The entire team enjoyed asymmetric, competitive video games
 including titles like Overwatch, Smash Bros, and Dota,
 but identified a need for inclusive gaming experiences
 that cater to diverse player preferences and physical abilities.
-The physical demands of FPS and MOBA gagmes were replaced
+The physical demands of FPS and MOBA games were replaced
 with a turn-based, card-playing tactics core
 that rewards decision making and teamwork
 over reaction time or mechanical precision.
@@ -50,8 +50,8 @@ In his spare time, Matt loves gardening and playing video games.
 
 ### Alex McIntosh
 
-Alex McIntosh is a Data Science and Engineer Associate in healthcare technology
-specializing in ethical and explainable machine intelligence systems.
+Alex McIntosh develops and tests
+ethical and explainable machine intelligence systems in healthcare technology.
 Before tech, he provided residential and employment services
 to people with disabilities.
 He has seen first hand the importance of inclusive play.
@@ -63,3 +63,10 @@ He has seen first hand the importance of inclusive play.
 ### &bull; Competition &bull;
 
 ### &bull; Inclusion &bull;
+
+A team of friends has been steadily developing Constelleum for 5 years.
+
+We now seek marketing support and funding to bring us over the finish line.
+
+Contact us at info@constelleum.com if you want to make Constelleum even more
+cooperative, competitive, and inclusive. 🫱🏼‍🫲🏾
