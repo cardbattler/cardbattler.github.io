@@ -6,7 +6,7 @@ permalink: /contact/
 
 Constelleum is on [Discord](https://discord.gg/7kuX43FQsg).
 Come hang out with the community,
-stay up to date on devopment,
+stay up to date on development,
 chat with the devs,
 and have a chance to play test builds.
 
