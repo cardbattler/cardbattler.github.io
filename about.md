@@ -63,10 +63,3 @@ He has seen first hand the importance of inclusive play.
 ### &bull; Competition &bull;
 
 ### &bull; Inclusion &bull;
-
-A team of friends has been steadily developing Constelleum for 5 years.
-
-We now seek marketing support and funding to bring us over the finish line.
-
-Contact us at info@constelleum.com if you want to make Constelleum even more
-cooperative, competitive, and inclusive. 🫱🏼‍🫲🏾
