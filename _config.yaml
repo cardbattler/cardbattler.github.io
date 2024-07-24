@@ -59,6 +59,7 @@ header_pages:
   - about.md
   - characters.md
   - devlog.md
+  - accessibility.md
 
 footer_pages:
   - contact.md
