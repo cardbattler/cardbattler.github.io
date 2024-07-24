@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Accessibility
+permalink: /accessibility
 ---
 
 At Constelleum, accessibility is at the heart of our mission.

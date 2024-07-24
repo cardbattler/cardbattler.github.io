@@ -1,11 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 Constelleum is a team tactics cardbattler with accessibility at its heart.
-
 
 ## The Rules
 
