@@ -3,7 +3,7 @@ layout: post
 title:  "Patch Notes - v0.6.0"
 date:   2024-07-13
 categories: patch-notes
-author: 
+author: Constelleum Team
 ---
 
 Its been almost 3 months since our last patch. For a lot of that we've been working on more business related things behind the scenes, but that didn't stop us from producing one doozy of a patch that we are thrilled about.

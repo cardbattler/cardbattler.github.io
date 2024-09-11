@@ -3,7 +3,7 @@ layout: post
 title:  "Patch Notes - v0.5.8"
 date:   2024-03-21
 categories: patch-notes
-author: 
+author: Constelleum Team
 ---
 
 We're keeping up a good monthly stride with a new slate of features and fixes.
